@@ -1,0 +1,11 @@
+<div>
+  <ul>
+      {% for region in site.regions %}
+      {% if region.title %}
+      <li>
+      <h6><a href="{{ region.url | prepend: site.baseurl }}">{{ region.title }}</a></h6>
+      </li>
+      {% endif %}
+    {% endfor %}
+</ul>
+</div>
