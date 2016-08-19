@@ -1,23 +1,30 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container-fluid top-panel">&nbsp;</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-2 col-sm-1 col-lg-1 col-md-1 sidebar">
+      <ul>
+            {% for region in site.regions %}
+            {% if region.title %}
+            <li>
+            <h6><a href="{{ region.url | prepend: site.baseurl }}">{{ region.title }}</a></h6>
+            </li>
+            {% endif %}
+            {% endfor %}
+      </ul>
+    </div>
+    <div class="col-xs-10 col-sm-11 col-lg-11 col-md-11 page-content">
+      <h1 class="big-header">Stand Out Photo graphic Forum 2016</h1>
+    </div>
+    </div>
+      <div class="row">
+        <div class="col-xs-6 col-xs-offset-1 col-sm-6 col-sm-offset-3"><img src="http://placehold.it/400x400" /></div>
+        <div class="col-xs-5 col-xs-offset-3 col-sm-4 col-sm-offset-6"><img src="http://placehold.it/500x300" /></div>
+        <div>
+      </div>
+  </div>
+  </div>
 </div>

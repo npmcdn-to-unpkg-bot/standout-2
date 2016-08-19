@@ -13,6 +13,7 @@
   min-height: $navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
   margin-bottom: $navbar-margin-bottom;
   border: 1px solid transparent;
+  background-color:white;
 
   // Prevent floats from breaking the navbar
   @include clearfix;
@@ -150,6 +151,8 @@
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
+  background-color:white;
+  margin-bottom:0;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -230,7 +233,7 @@
 // the nav the full height of the horizontal nav (above 768px).
 
 .navbar-nav {
-  margin: ($navbar-padding-vertical / 2) (-$navbar-padding-horizontal);
+  margin: ($navbar-padding-vertical / 2) ($navbar-padding-horizontal - 10);
 
   > li > a {
     padding-top:    10px;
@@ -245,7 +248,7 @@
       float: none;
       width: auto;
       margin-top: 0;
-      background-color: transparent;
+      background-color: #fff;
       border: 0;
       box-shadow: none;
       > li > a,
@@ -382,6 +385,9 @@
   .navbar-right {
     float: right !important;
   margin-right: -$navbar-padding-horizontal;
+    float: left;
+    padding:15px 0px;
+
 
     ~ .navbar-right {
       margin-right: 0;
@@ -397,6 +403,11 @@
 .navbar-default {
   background-color: $navbar-default-bg;
   border-color: $navbar-default-border;
+    background-color: #fff;
+    border-color: none;
+    position: fixed;
+    width: 100%;
+}
 
   .navbar-brand {
     color: $navbar-default-brand-color;
@@ -407,6 +418,10 @@
     }
   }
 
+  .navbar-brand img {
+    max-height:50px;
+  }
+
   .navbar-text {
     color: $navbar-default-color;
   }
@@ -414,6 +429,8 @@
   .navbar-nav {
     > li > a {
       color: $navbar-default-link-color;
+      letter-spacing:2px;
+      text-transform: uppercase;
 
       &:hover,
       &:focus {
@@ -524,7 +541,7 @@
       }
     }
   }
-}
+
 
 // Inverse navbar
 

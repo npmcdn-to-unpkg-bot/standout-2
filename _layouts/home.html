@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+
+
+  {% include header.html %}
+
+  <body>
+
+    <div class="cover" style="position:fixed">
+      <div class="tv" style="position: fixed">
+      		  <div class="screen mute" id="tv"></div>
+      </div>
+    </div>
+
+  <div class="page-body">{{ content }}</div>
+
+
+  {% include footer.html %}
+
+
+
+
+</body>
+
+{% include js.html %}
+</html>

@@ -1,242 +1,124 @@
-/**
- * Site header
- */
-.site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+.tv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 
-    &,
-    &:visited {
-        color: $grey-color-dark;
+  .screen {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: -900;
+    opacity: 0;
+    transition: opacity .5s;
+
+    &.active {
+      opacity: 1;
     }
+  }
 }
 
-.site-nav {
-    float: right;
-    line-height: 56px;
-
-    .menu-icon {
-        display: none;
-    }
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-
-        // Gaps between nav items, but not on the last one
-        &:not(:last-child) {
-            margin-right: 20px;
-        }
-    }
-
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: $spacing-unit / 2;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
-
-        .trigger {
-            clear: both;
-            display: none;
-        }
-
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
-            margin-left: 20px;
-        }
-    }
+.page-body {
+  padding-top:58px;
 }
 
-
-
-/**
- * Site footer
- */
-.site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-}
-
-.footer-heading {
-    font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
-}
-
-.contact-list,
-.social-media-list {
-    list-style: none;
-    margin-left: 0;
-}
-
-.footer-col-wrapper {
-    font-size: 15px;
-    color: $grey-color;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
-}
-
-.footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-}
-
-.footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-laptop) {
-    .footer-col-1,
-    .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
-    }
-
-    .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-@include media-query($on-palm) {
-    .footer-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
-
-
-/**
- * Page content
- */
 .page-content {
-    padding: $spacing-unit 0;
-}
-
-.page-heading {
-    font-size: 20px;
-}
-
-.post-list {
-    margin-left: 0;
-    list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
-}
-
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-}
-
-.post-link {
-    display: block;
-    font-size: 24px;
+  padding:3%;
+  position: relative;
+  z-index: 500;
 }
 
 
+.sidebar {
+    background-color:transparent;
+    max-height:80px;
+    margin:0;
+    text-align:center;
+    position: relative;
+    z-index: 700;
 
-/**
- * Posts
- */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
-
-.post-title {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1;
-
-    @include media-query($on-laptop) {
-        font-size: 36px;
-    }
-}
-
-.post-content {
-    margin-bottom: $spacing-unit;
-
-    h2 {
-        font-size: 32px;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
+    @media (min-width: $screen-sm-min) {
+          background-color:transparent;
+          padding-top: 30px;
+          margin:0;
+          text-align:left;
         }
+  }
+
+  .sidebar ul {
+    margin:0;
+    transform: rotate(90deg);
+    transform-origin: 21px 7px;
+    position:fixed;
+
+
+    @media (min-width: $screen-sm-min) {
+      position:fixed;
     }
 
-    h3 {
-        font-size: 26px;
+  }
 
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
-    }
+.sidebar li {
+  display: inline-block;
+  padding-right: 20px;
+  margin:0;
+  transform: rotate(180deg);
+  transform-origin: 40px 10px;
+  font-size: 4em;
 
-    h4 {
-        font-size: 20px;
+  @media (min-width: $screen-sm-min) {
+    display: inline-block;
+    margin:0;
+  }
 
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
+}
+
+.sidebar li a {
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    padding-right: 20px;
+    text-decoration: none;
+    line-height: 0.4;
+    color: black;
+}
+
+.top-panel {
+    background-color: rgba(0, 159, 255, 0.8);
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    height:30vh;
+}
+
+.big-header {
+  font-size: 400%;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 0.9;
+  text-align:justify;
+}
+
+.footer {
+  z-index: 2000;
+  background-color: black;
+  position: absolute;
+  min-height:400px;
+  width:100%;
+  color:white;
 }
