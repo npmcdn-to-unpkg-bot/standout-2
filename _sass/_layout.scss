@@ -33,13 +33,14 @@
 }
 
 .page-body {
-  padding-top:58px;
+  padding-top:98px;
+  padding-bottom:100px;
 }
 
 .page-content {
-  padding:3%;
   position: relative;
   z-index: 500;
+  padding-left: 58px;
 }
 
 
@@ -62,7 +63,7 @@
   .sidebar ul {
     margin:0;
     transform: rotate(90deg);
-    transform-origin: 21px 7px;
+    transform-origin: 36px -2px;
     position:fixed;
 
 
@@ -88,37 +89,111 @@
 }
 
 .sidebar li a {
-    font-size: 3em;
-    font-weight: 600;
+    font-size: 2em;
+    font-weight: 300;
     letter-spacing: 2px;
     margin-bottom: 0px;
-    padding-right: 20px;
+    padding-right: 40px;
     text-decoration: none;
     line-height: 0.4;
     color: black;
 }
 
 .top-panel {
-    background-color: rgba(0, 159, 255, 0.8);
+    background-color: rgba(0, 159, 255, 0.6);
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 10;
-    height:30vh;
+    height:120vh;
+
+    @media (min-width: $screen-sm-min) {
+      position:absolute;
+      height:560px;
+    }
+
 }
 
-.big-header {
-  font-size: 400%;
+
+.big-header h1 {
+  font-size: 500%;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 0.9;
+}
+
+.big-header h3 {
+  font-size: 250%;
   font-weight: 300;
   text-transform: uppercase;
   line-height: 0.9;
-  text-align:justify;
 }
 
-.footer {
+footer {
   z-index: 2000;
   background-color: black;
   position: absolute;
-  min-height:400px;
+  min-height:200px;
   width:100%;
   color:white;
+  padding: 30px 0px;
+}
+
+
+.photo-array {
+  position:relative;
+  z-index:600
+}
+
+.photo-array h1 {
+  font-size:500%;
+  font-weight: 600;
+  color:white;
+}
+
+.photo-array-1 {
+
+  @media (min-width: $screen-sm-min) {
+  margin-top:0px;
+  }
+
+}
+.photo-array-2 {
+  margin-top:-60px;
+
+  @media (min-width: $screen-sm-min) {
+  margin-top:-160px;
+  }
+}
+
+.photo-array-3 {
+  margin-top:-170px;
+  margin-bottom:0px;
+
+  @media (min-width: $screen-sm-min) {
+  margin-top:-300px;
+  }
+}
+
+
+.photo-array-4 {
+
+  @media (min-width: $screen-sm-min) {
+
+  }
+
+}
+.photo-array-5 {
+  margin-top:-100px;
+
+  @media (min-width: $screen-sm-min) {
+  margin-top:-160px;
+  }
+}
+
+.photo-array-6 {
+  margin-top:-200px;
+
+  @media (min-width: $screen-sm-min) {
+  margin-top:-300px;
+  }
 }

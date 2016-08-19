@@ -2,7 +2,6 @@
 layout: home
 ---
 
-<div class="container-fluid top-panel">&nbsp;</div>
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-2 col-sm-1 col-lg-1 col-md-1 sidebar">
@@ -16,15 +15,44 @@ layout: home
             {% endfor %}
       </ul>
     </div>
-    <div class="col-xs-10 col-sm-11 col-lg-11 col-md-11 page-content">
-      <h1 class="big-header">Stand Out Photo graphic Forum 2016</h1>
-    </div>
-    </div>
-      <div class="row">
-        <div class="col-xs-6 col-xs-offset-1 col-sm-6 col-sm-offset-3"><img src="http://placehold.it/400x400" /></div>
-        <div class="col-xs-5 col-xs-offset-3 col-sm-4 col-sm-offset-6"><img src="http://placehold.it/500x300" /></div>
-        <div>
-      </div>
   </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-10 col-sm-11 page-content">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 big-header">
+          <h1>Stand Out</h1>
+          <h3>PHOTOGRAPHIC FORUM</h3>
+          <h3>2016</h3>
+        </div>
+        <div class="col-xs-12 col-sm-6 big-header">
+          <p>The Stand Out! Photographic Forums’ mission is to bring the photographic community together to inform, inspire and excite. Hear from innovative industry creatives and icons. Explore new ideas to differentiate yourself and your business. The Stand Out! event will also bring leading photographic brands under one roof to demonstrate their products to you in an intimate and meaningful manner.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+<div class="container" style="margin-top:60px;">
+  <div class="row photo-array">
+    <a href="{{ "/usa/" | prepend: site.baseurl }}">
+    <div class="col-xs-12 col-sm-7 col-sm-offset-1 photo-array-1"><img src="{{ "img/so-1.png" | prepend: site.baseurl }}"/></div>
+    <div class="col-xs-8 col-xs-offset-3 col-sm-8 col-sm-offset-4 photo-array-2"><img src="{{ "img/so-4.png" | prepend: site.baseurl }}"/></div>
+    <div class="col-xs-10 col-xs-offset-2 col-sm-7 col-sm-offset-3 photo-array-3"><h1>USA</h1>
+      <div style="height:20px; background-color:red; margin-top: -60px; width: 260px;">&nbsp;</div>
+    </div>
+  </a>
+  </div>
+</div>
+
+<div class="container" style="margin-top:60px;">
+  <div class="row photo-array">
+    <a href="{{ "/eu/" | prepend: site.baseurl }}">
+    <div class="col-xs-11 col-xs-offset-1 col-sm-10 col-sm-offset-2 photo-array-4"><img src="{{ "img/so-2.png" | prepend: site.baseurl }}"/></div>
+    <div class="col-xs-10 col-xs-offset-2 col-sm-7 col-sm-offset-8 photo-array-6"><h1>EU</h1>
+      <div style="height:20px; background-color:red; margin-top: -60px; width: 260px;">&nbsp;</div>
+    </div>
+    <div class="col-xs-8 col-sm-8 photo-array-5"><img src="{{ "img/so-5.png" | prepend: site.baseurl }}"/></div>
+    </a>
   </div>
 </div>
