@@ -3,6 +3,7 @@
 <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/misc.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/bower_components/aos/dist/aos.js" | prepend: site.baseurl }}"></script>
 <script src="https://use.typekit.net/djc3asi.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
@@ -12,3 +13,10 @@
   ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
 </script>
 <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+<script>
+			AOS.init({
+				easing: 'ease-out-back',
+				duration: 1000
+			});
+		</script>
