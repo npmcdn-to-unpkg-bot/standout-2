@@ -12,6 +12,8 @@ h1, h2, h3, h4, h5, h6,
   font-weight: $headings-font-weight;
   line-height: $headings-line-height;
   color: $headings-color;
+  letter-spacing: 2px;
+
 
   small,
   .small {
@@ -44,6 +46,12 @@ h6, .h6 {
   }
 }
 
+h2 {
+  font-weight: 300;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
 h6 {
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -61,8 +69,14 @@ h6, .h6 { font-size: $font-size-h6; }
 // Body text
 // -------------------------
 
+body {
+  font-weight: 300;
+}
+
 p {
   margin: 0 0 ($line-height-computed / 2);
+  letter-spacing: 1px;
+  font-weight:300;
 }
 
 .lead {
