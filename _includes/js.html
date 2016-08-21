@@ -16,6 +16,10 @@
 
 <script>
 			AOS.init({
-  
+        easing: 'ease-out-expo',
 			});
 </script>
+
+{% if page.title == 'Get Inspired' %}
+  {% include cards.html %}
+{% endif %}

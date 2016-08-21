@@ -8,15 +8,16 @@
 }
 
 .tv {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   overflow: hidden;
+  z-index: -100;
 
 .screen {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
@@ -38,9 +39,8 @@
 }
 
 .page-content {
-  position: relative;
   z-index: 500;
-  padding-left: 58px;
+  position: relative;
 }
 
 
@@ -63,7 +63,7 @@
   .sidebar ul {
     margin:0;
     transform: rotate(90deg);
-    transform-origin: 36px -2px;
+    transform-origin: 16px 11px;
     position:fixed;
 
 
@@ -89,14 +89,14 @@
 }
 
 .sidebar li a {
-    font-size: 2em;
-    font-weight: 300;
-    letter-spacing: 2px;
-    margin-bottom: 0px;
-    padding-right: 40px;
-    text-decoration: none;
-    line-height: 0.4;
-    color: black;
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  padding-right: 20px;
+  text-decoration: none;
+  line-height: 0.4;
+  color: black;
 }
 
 .top-panel {
@@ -117,18 +117,18 @@
 .big-header {
   text-align: center;
   background-color: rgba(0, 60, 206, 0.6);
-  height: 110vh;
   vertical-align:middle;
   position:relative;
   margin-top:-130px;
+  z-index: 2;
+  width: 100%;
+  height: 110vh;
 }
 
 .big-header-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
       text-align: center;
+      padding: 0px 60px;
+      /* margin-top: 0px; */
 }
 
 
@@ -201,4 +201,76 @@ footer {
   @media (min-width: $screen-sm-min) {
   margin-top:-300px;
   }
+}
+
+
+.heading-big {
+  font-size: 4em;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+
+.cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.event {
+    list-style: none;
+    margin-bottom:30px;
+}
+
+.event-details {
+      position: absolute;
+      top: 70px;
+      /* margin-left: 20px; */
+      background-color: white;
+      padding: 10px;
+      max-width: 270px;
+  }
+
+
+  .speaker {
+      list-style: none;
+      margin-bottom:30px;
+  }
+
+  .speaker img {
+    display:block;
+    width:100%;
+  }
+
+  .speaker-details {
+        position:relative;
+        /* margin-left: 20px; */
+        background-color: gray;
+        padding: 10px;
+    }
+
+    .seminar {
+        list-style: none;
+        margin-bottom:30px;
+    }
+
+    .seminar img {
+      display:block;
+      width:100%;
+    }
+
+    .seminar-details {
+          position:relative;
+          /* margin-left: 20px; */
+          background-color: gray;
+          padding: 10px;
+      }
+
+
+
+.featured {
+  margin-bottom:50px;
 }
