@@ -10,6 +10,7 @@ layout: event
 location-name: Location Name
 location-address: Location Address
 location-link: http://google.com
+location-city-st: Corpus Christi, TX
 region: EU
 ---
 

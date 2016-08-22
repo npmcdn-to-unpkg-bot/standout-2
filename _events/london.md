@@ -9,6 +9,7 @@ reg-link: http://google.com
 layout: event
 location-name: Location Name
 location-address: Location Address
+location-city-st: Corpus Christi, TX
 location-link: http://google.com
 region: EU
 ---

@@ -15,95 +15,112 @@ layout: default
   </div>
 </div>
 <div class="container-fluid big-header" style="position:absolute"></div>
-<div class="row page-content">
-<div class="col-xs-12 col-sm-11 col-sm-offset-1" style="margin-bottom:200px;">
+<div class="container-fluid page-content" style="position:relative;">
   <div class="row">
-    <div class="col-xs-12 col-sm-4">
-      <h1>{{ page.title }}</h1>
-      <h3>{{ page.event-date }}</h3>
-    </div>
-    <div class="col-xs-12 col-sm-4">
-      <h4><a href="{{ page.location-link }}">{{ page.location-name }}</a></h3>
-      <h6>{{ page.location-address }}</h6>
-    </div>
-      <div class="col-xs-12 col-sm-4">
-      <a class="btn" href="{{ page.reg-link }}">Registration Link</a>
-    </div>
-  </div>
-</div>
-<div class="col-xs-12 col-sm-11 col-sm-offset-1">
-  <h2>Speakers</h2>
-  <div class="row">
-    <ul>
-      {% for speaker in site.speakers %}
-      {% if speaker.city == page.title %}
-      <li class="col-xs-12 col-sm-4 speaker">
-        {% if speaker.image %}
-        <a href="{{ speaker.url | prepend: site.baseurl }}"><img src="{{ speaker.image }}"></a>
-        {% endif %}
-        <div class="speaker-details">
-          {% if speaker.title %}
-          <h3><a href="{{ speaker.url | prepend: site.baseurl }}">{{ speaker.title }}</a></h3>
-          {% endif %}
-          {% if speaker.bio %}
-          <p>{{ speaker.bio }}</p>
-          {% endif %}
-          {% if speaker.seminar %}
-          <h3><a href="{{ speaker.url | prepend: site.baseurl }}">{{ speaker.seminar }}</a></h3>
-          {% endif %}
-          {% if speaker.city %}
-          <h6>{{ speaker.city }}</h6>
-          {% endif %}
+    <div class="col-xs-11 col-xs-offset-1" style="margin-bottom:200px;">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 intro">
+          <h1>{{ page.title }}</h1>
+          <h4>{{ page.event-date }}</h4>
+          <div class="address">
+            <h5 class="padding-top:52px;"><a href="{{ page.location-link }}">{{ page.location-name }}</a></h5>
+            {{ page.location-address }}, {{ page.location-city-st }}
+          </div>
         </div>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
+          <div class="col-xs-12 col-sm-4">
+          <a class="btn btn-default" href="{{ page.reg-link }}">Registration Link</a>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<div class="col-xs-12 col-sm-11 col-sm-offset-1">
-  <h2>Seminars</h2>
+  <div class="col-xs-11 col-xs-offset-1">
     <div class="row">
       <ul>
-        {% for seminar in site.seminars %}
-        {% if seminar.cities contains page.title %}
-        <li class="col-xs-12 col-sm-4 seminar">
-          {% if seminar.image %}
-          <a href="{{ seminar.url | prepend: site.baseurl }}"><img src="{{ seminar.image }}"></a>
+        {% for speaker in site.speakers %}
+        {% if speaker.city contains page.title %}
+        <li class="col-xs-6 col-sm-4 speaker">
+          {% if speaker.image %}
+          <a href="{{ speaker.url | prepend: site.baseurl }}"><img src="{{ speaker.image }}"></a>
           {% endif %}
-            <div class="seminar-details">
-              {% if seminar.title %}
-              <h3><a href="{{ seminar.url | prepend: site.baseurl }}">{{ seminar.title }}</a></h3>
-              {% endif %}
-              {% if seminar.desc %}
-              <p>{{ seminar.desc }}</p>
-              {% endif %}
-              {% if seminar.cities %}
-                {% for city in seminar.cities %}
-                <h6>{{ city }}</h6>
-                {% endfor %}
-              {% endif %}
-            </div>
+          <div class="speaker-name">
+            {% if speaker.title %}
+            <h4><a href="{{ speaker.url | prepend: site.baseurl }}">{{ speaker.title }}</a></h4>
+            {% endif %}
+          </div>
         </li>
         {% endif %}
         {% endfor %}
       </ul>
     </div>
-</div>
-<div class="col-xs-12 col-sm-11 col-sm-offset-1">
-  <h2>Sponsors</h2>
-  <div class="row">
-    <ul>
-      {% for sponsor in site.sponsors %}
-      {% if sponsor.city contains page.title %}
-      <li class="col-xs-12 col-sm-2 seminar">
-        {% if sponsor.image %}
-        <a href="{{ sponsor.link | prepend: site.baseurl }}"><img src="{{ sponsor.image }}" /></a>
-        {% endif %}
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
   </div>
-</div>
-</div>
+  <div class="col-xs-11 col-xs-offset-1" style="padding-top:100px;">
+      <div class="row">
+        <ul>
+          {% for seminar in site.seminars %}
+          {% if seminar.cities contains page.title %}
+          <li class="col-xs-12 col-sm-4 seminar">
+              <div class="seminar-details">
+                {% if seminar.title %}
+                <h4><a href="{{ seminar.url | prepend: site.baseurl }}">{{ seminar.title }}</a></h4>
+                {% endif %}
+                {% if seminar.speaker %}
+                <h6>with {{ seminar.speaker }}</h6>
+                {% endif %}
+                {% if seminar.desc %}
+                <p>{{ seminar.desc }}</p>
+                {% endif %}
+              </div>
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+  </div>
+
+  <div class="col-xs-11 col-xs-offset-1" style="margin-top:100px;">
+    <div class="row">
+      <div class="col-xs-2"><h6>TIME</h6></div>
+      <div class="col-xs-5"><h6>SEMINAR</h6></div>
+      <div class="col-xs-5"><h6>SPEAKER</h6></div>
+    </div>
+    <hr class="line-full" />
+      <div class="row">
+        <ul>
+        {% for seminar in site.seminars %}
+        {% if seminar.cities contains page.title %}
+        <li>
+        <div class="col-xs-2">{{ seminar.time }}</div>
+        <div class="col-xs-5">{{ seminar.title }}</div>
+        <div class="col-xs-5">{{ seminar.speaker }}</div>
+      </li>
+        {% endif %}
+        <hr class="line-full" />
+        {% endfor %}
+      </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-xs-11 col-xs-offset-1" style="margin-top:100px;">
+    <div class="row">
+      <div class="col-xs-12" style="text-align:center;">
+        <h6 style="font-size:1em;">BROUGHT TO YOU IN PART BY</h6>
+        <hr class="line-small">
+      </div>
+    </div>
+    <div class="row">
+      <ul>
+        {% for sponsor in site.sponsors %}
+        {% if sponsor.city contains page.title %}
+        <li class="col-xs-12 col-sm-2 seminar">
+          {% if sponsor.image %}
+          <a href="{{ sponsor.link | prepend: site.baseurl }}"><img src="{{ sponsor.image }}" /></a>
+          {% endif %}
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  </div>

@@ -4,8 +4,7 @@
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
+
 }
 
 
@@ -78,16 +77,15 @@ li {
 
 /**
  * Headings
- */
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
 }
-
-
+ */
 
 /**
  * Links
- */
+
 a {
     color: $brand-color;
     text-decoration: none;
@@ -102,11 +100,11 @@ a {
     }
 }
 
-
+ */
 
 /**
  * Blockquotes
- */
+
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
@@ -119,12 +117,12 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
+ */
 
 
 /**
  * Code formatting
- */
+
 pre,
 code {
     font-size: 15px;
@@ -148,7 +146,7 @@ pre {
     }
 }
 
-
+ */
 
 /**
  * Wrapper
@@ -184,11 +182,19 @@ pre {
     }
 }
 
-
+ul {
+display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+  }
 
 /**
  * Icons
- */
+
 .icon {
 
     > svg {
@@ -202,3 +208,5 @@ pre {
         }
     }
 }
+
+ */

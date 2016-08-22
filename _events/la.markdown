@@ -8,6 +8,7 @@ featured-image: http://placehold.it/900x300
 reg-link: http://google.com
 location-name: Location Name
 location-address: Location Address
+location-city-st: Corpus Christi, TX
 location-link: http://google.com
 layout: event
 region: USA

@@ -34,7 +34,7 @@
 }
 
 .page-body {
-  padding-top:98px;
+  padding-top:65px;
   padding-bottom:100px;
 }
 
@@ -54,17 +54,21 @@
 
     @media (min-width: $screen-sm-min) {
           background-color:transparent;
-          padding-top: 30px;
           margin:0;
           text-align:left;
         }
   }
 
   .sidebar ul {
-    margin:0;
+    margin: 10px;
     transform: rotate(90deg);
-    transform-origin: 16px 11px;
-    position:fixed;
+    transform-origin: left;
+    position: fixed;
+    width: 100%;
+    min-width:100vh;
+    max-height: 20px;
+    overflow:hidden;
+    text-align:left;
 
 
     @media (min-width: $screen-sm-min) {
@@ -75,10 +79,8 @@
 
 .sidebar li {
   display: inline-block;
-  padding-right: 20px;
+  padding-right: 0px;
   margin:0;
-  transform: rotate(180deg);
-  transform-origin: 40px 10px;
   font-size: 4em;
 
   @media (min-width: $screen-sm-min) {
@@ -86,17 +88,20 @@
     margin:0;
   }
 
-}
+  h6 {
+    margin:0px;
+    padding-top:0px;
+    padding-bottom:0px;
+  }
 
-.sidebar li a {
-  font-size: 1.2em;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-bottom: 0px;
-  padding-right: 20px;
-  text-decoration: none;
-  line-height: 0.4;
-  color: black;
+  a {
+    letter-spacing: 2px;
+    padding-right: 18px;
+    text-decoration: none;
+    line-height: 0.4;
+    color: black;
+    margin:0;
+  }
 }
 
 .top-panel {
@@ -123,6 +128,27 @@
   z-index: 2;
   width: 100%;
   height: 110vh;
+}
+
+.intro {
+
+  h1 {
+    font-size: 3.3em;
+  }
+
+  h4 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 11px;
+    }
+
+    a {
+            font-weight: 500;
+    }
+
+    p {
+      margin-bottom: 6px;
+    }
 }
 
 .big-header-text {
@@ -238,6 +264,9 @@ footer {
   .speaker {
       list-style: none;
       margin-bottom:30px;
+      position:relative;
+      padding-left:0px;
+      padding-right:0px;
   }
 
   .speaker img {
@@ -245,12 +274,24 @@ footer {
     width:100%;
   }
 
-  .speaker-details {
-        position:relative;
-        /* margin-left: 20px; */
-        background-color: gray;
-        padding: 10px;
+  .speaker-name {
+        position: absolute;
+        left: 20px;
+        bottom: 0px;
     }
+
+  .speaker-name a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+.speaker-details {
+    position: absolute;
+        top: 30px;
+        right: -100px;
+        left: 60px;
+      }
 
     .seminar {
         list-style: none;
@@ -264,13 +305,26 @@ footer {
 
     .seminar-details {
           position:relative;
-          /* margin-left: 20px; */
-          background-color: gray;
-          padding: 10px;
       }
 
 
 
 .featured {
   margin-bottom:50px;
+}
+
+
+.line-small {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  border: 0;
+  border-top: 2px dotted #9af6ff;
+}
+
+.line-full {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  border: 0;
+  border-top: 2px dotted #9af6ff;
 }
