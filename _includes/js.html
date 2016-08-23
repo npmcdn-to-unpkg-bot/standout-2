@@ -4,18 +4,46 @@
 <script src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/misc.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/bower_components/aos/dist/aos.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
 <script src="https://use.typekit.net/djc3asi.js"></script>
+<script type="text/javascript" src="http://www.directlyrics.com/code/lockfixed/jquery.lockfixed.js">
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
 <script>
-  window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-  ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+AOS.init({
+easing: 'ease-out-expo',
+});
 </script>
-<script src="https://www.google-analytics.com/analytics.js" async defer></script>
 
 <script>
-			AOS.init({
-        easing: 'ease-out-expo',
-			});
+$(document).ready(function() {
+  $(".animsition").animsition({
+    inClass: 'fade-in-up-sm',
+    outClass: 'fade-out-down-sm',
+    inDuration: 900,
+    outDuration: 700,
+    linkElement: '.animsition-link',
+    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+    loading: true,
+    loadingParentElement: 'body', //animsition wrapper element
+    loadingClass: 'animsition-loading',
+    loadingInner: '', // e.g '<img src="loading.svg" />'
+    timeout: false,
+    timeoutCountdown: 5000,
+    onLoadEvent: true,
+    browser: [ 'animation-duration', '-webkit-animation-duration'],
+    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+    overlay : false,
+    overlayClass : 'animsition-overlay-slide',
+    overlayParentElement : 'body',
+    transition: function(url){ window.location.href = url; }
+  });
+});
+</script>
+
+<script>
+  $(document).ready(function(){
+    $("#header").sticky({topSpacing:0});
+  });
 </script>

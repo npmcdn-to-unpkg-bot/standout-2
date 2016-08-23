@@ -34,10 +34,10 @@ layout: default
                   {% endif %}
                   <div class="event-details">
                     {% if event.title %}
-                      <h3>{{ event.title }}</h3>
+                      <a href="{{ event.url | prepend: site.baseurl }}"><h3>{{ event.title }}</h3></a>
                     {% endif %}
                     {% if event.event-date %}
-                      <h6>{{ event.event-date }}</h6>
+                      <a href="{{ event.url | prepend: site.baseurl }}"><h6>{{ event.event-date }}</h6></a>
                     {% endif %}
                   </div>
                 </li>

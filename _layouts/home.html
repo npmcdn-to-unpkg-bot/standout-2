@@ -3,19 +3,11 @@
 <html>
 
   {% include head.html %}
+  {% include pre-header.html %}
   {% include header.html %}
 
-  <body>
-
-    <div class="cover">
-      <div class="hi"></div>
-    </div>
-    	<div class="tv">
-    		  <div class="screen" id="tv"></div>
-    	</div>
+  <body class="animsition">
     <div class="page-body">{{ content }}</div>
-
-
 {% include footer.html %}
 
 </body>

@@ -3,39 +3,54 @@ layout: default
 ---
 
 <div class="container-fluid page-content">
-  <div class="row" style="margin-bottom:-200px;">
+  <div class="row" style="position:relative;">
     <div class="col-xs-12">
-      <img src="{{ page.featured-image }}" />
+    <h6><a href="{{ paginator.previous_page_path }}">Back</a></h6>
+    </div>
+    <div class="col-xs-12 col-sm-6">
+      <h1 style="text-transform: uppercase;margin-bottom:0px;line-height:1;"><a href="{{ page.url }}">{{ page.title }}</a></h1>
+    </div>
+    <div class="col-xs-12 col-sm-6 speaker-social">
+      {% if page.facebook-url %}<a href="{{ facebook-url }}">f</a>{% endif %}
+      {% if page.instagram-url %}<a href="{{ instagram-url }}">i</a>{% endif %}
+      {% if page.youtube-url %}<a href="{{ page.youtube-url }}">y</a>{% endif %}
+      {% if page.vimeo-url %}<a href="{{ page.vimeo-url }}">v</a>{% endif %}
+      {% if page.linkedin-url %}<a href="{{ page.linkedin-url }}">l</a>{% endif %}
     </div>
   </div>
+  <hr class="line-full" />
   <div class="row">
     <div class="col-xs-12 col-sm-4">
       <img src="{{ page.headshot }}" />
     </div>
     <div class="col-xs-10 col-sm-8">
-      <h1><a href="{{ page.url }}" style="text-transform: uppercase;">{{ page.title }}</a></h1>
       <p>{{ page.bio }}</p>
-      <div class="row speaker-social">
-        <div class="col-xs-6">
-          <div class="row">
-              {% if page.facebook-url %}<a href="{{ facebook-url }}">f</a>{% endif %}
-              {% if page.instagram-url %}<a href="{{ instagram-url }}">i</a>{% endif %}
-              {% if page.youtube-url %}<a href="{{ page.youtube-url }}">y</a>{% endif %}
-              {% if page.vimeo-url %}<a href="{{ page.vimeo-url }}">v</a>{% endif %}
-              {% if page.linkedin-url %}<a href="{{ page.linkedin-url }}">l</a>{% endif %}
-          </div>
-        </div>
-      </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-xs-12 col-sm-9 col-sm-offset-2">
+  <div class="row" style="margin-top:60px;">
+    <div class="col-xs-12 col-sm-3">
+      <img src="{{ page.featured-image }}" />
+    </div>
+    <div class="col-xs-12 col-sm-9">
         {% for seminar in site.seminars %}
         {% if seminar.speaker == page.title %}
         <h3>"{{ seminar.title }}"</h3>
         <p>{{ seminar.desc }}</p>
         {% endif %}
         {% endfor %}
+    </div>
+  </div>
+  <div class="row" style="padding-top:60px;">
+    <hr class="line-full" style="margin-bottom:0px;">
+    <div class="col-xs-6">
+      {% if page.previous.url %}
+      <h6 style="text-transform:uppercase;"><a href="{{page.previous.url}}" class="animsition-link">{{page.previous.title}}</a></h6>
+      {% endif %}
+    </div>
+    <div class="col-xs-6" style="text-align:right;">
+      {% if page.next.url %}
+      <h6 style="text-transform:uppercase;"><a href="{{ page.next.url }}" class="animsition-link">{{page.next.title}}</a></h6>
+      {% endif %}
     </div>
   </div>
 </div>
