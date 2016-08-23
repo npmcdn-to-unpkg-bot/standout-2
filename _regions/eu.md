@@ -1,6 +1,6 @@
 ---
-layout: region
 title: EU
+layout: region
 ---
 
 test

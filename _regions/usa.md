@@ -1,7 +1,6 @@
 ---
-layout: region
 title: USA
+layout: region
 ---
-
 
 test
