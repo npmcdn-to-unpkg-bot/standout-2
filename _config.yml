@@ -40,7 +40,7 @@ collections:
     title: Uploads
     output: true
 description:  Write an awesome description for your new site here.
-baseurl: '' # the subpath of your site, e.g. /blog
+baseurl: '/standout-2' # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 email: your-email@domain.com
 description: |
