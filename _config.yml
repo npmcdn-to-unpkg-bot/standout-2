@@ -28,13 +28,27 @@ collections:
     title: Speakers
     output: true
     permalink: "/speakers/:path/"
+    layout: speaker
+    date: 2016-08-08 12:36:52 Z
+    collection: speakers
+    city: New York City, Chicago, Los Angeles, London, Paris
+    headshot: http://placehold.it/600x600
+    featured-image: http://placehold.it/600x800
+    bio: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+    layout: speaker
+    facebook-url: #
+    youtube-url: #
+    vimeo-url: #
+    instagram-url: #
+    linkedin-url: #
   sponsors:
     title: Sponsors
     output: true
     permalink: "/sponsors/:path/"
   assets:
     title: Assets
-    output: false
+    output: true
+    permalink: "/assets/:path/"
   uploads:
     title: Uploads
     output: true
