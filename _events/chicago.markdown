@@ -12,5 +12,7 @@ location-city-st: Chicago, IL 60609
 location-link: http://google.com
 layout: event
 region: USA
-speakers: Bella Kotak and Pratik Naik, Clay Cook, Erika Blatt, Jaron Schneider, Jeff Rojas, Joseph Cartwright, Michael Bonocore
+speakers: Bella Kotak and Pratik Naik, Clay Cook, Erika Blatt, Jaron Schneider, Jeff
+  Rojas, Joseph Cartwright, Michael Bonocore
 ---
+
