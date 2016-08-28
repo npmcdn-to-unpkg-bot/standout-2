@@ -22,15 +22,15 @@ layout: home
     </div>
   </div>
   <div class="row">
-    <div class="container-fluid content">
-      <div class="row">
+    <div class="container content">
+      <div class="row" style="padding-bottom:150px;">
           {% for event in site.events %}
-          <div class="col-xs-6 col-sm-3 event" style="padding:0px;">
+          <div class="col-xs-6 col-sm-4 event image-box" style="padding:0px;">
             <a href="{{ event.url }}" class="animsition-link">
-              <figure><img src="{{ event.image | prepend: site.baseurl }}"  />
+              <figure><img src="{{ event.image | prepend: site.baseurl }}"  style="height:250px;"/>
               <div class="event-details">
                 {% if event.title %}
-                <h1>{{ event.title }}</h1>
+                <h2>{{ event.title }}</h2>
                 {% endif %}
                 {% if event.event-date %}
                 <h5><a href="{{ event.url }}" class="animsition-link">{{ event.event-date }}</a></h5>
@@ -40,6 +40,18 @@ layout: home
           </a>
           </div>
           {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="container" style="border: 3px dashed #9af6ff; margin-bottom:60px;background-color:cornsilk">
+    <div class="row" style="padding:50px;">
+      <div class="col-xs-12" style="text-align:center;">
+        <h5>SIGN UP NOW FOR OUR</h5>
+        <h2 style="font-weight:700;">Early Bird Special</h2>
+        <hr class="line-small"  style="color:red;"/>
+        <P>Early Bird Admission Fee until Sept. 30th for $49! After Sept. 30, Admission Fee will be $69.</p>
+        <p class="small">* Admission fee may be used as a credit towards a purchase of $200 or more at the event. Some exclusions may apply. Must have event ticket and ID to be eligible.</p>
+        <a class="btn-default btn" href="#">Register Now!</a>
       </div>
     </div>
   </div>
