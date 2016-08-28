@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html>
+
   {% include head.html %}
-<body class="animsition" id="container">
-        {% include header.html %}
-      <div class="page-body" id="main">{{ content }}</div>
-  {% include footer.html %}
+
+<body class="ansimition">
+  <div class="container-fluid"> 
+      <div class="col-xs-12">
+        <div class="row">
+          {% include header.html %}
+        </div>
+        <div class="row">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+      </div>
+    <div class="row">
+    {% include footer.html %}
+  </div>
+</div>
 </body>
+
 {% include js.html %}
+
 </html>

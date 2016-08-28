@@ -1,17 +1,15 @@
 ---
-title: Paris
+title: Phoenix
 date: 2016-08-08 12:36:52 Z
-event-date: December 1, 2016
+event-date: Thursday, November 17, 2016
 collection: events
-image: http://placehold.it/600x600
+image: img/so-4.png
 featured-image: http://placehold.it/800x300
 reg-link: http://google.com
 layout: event
-location-name: Location Name
-location-address: Location Address
+location-name: TetherTools HQ
+location-address: 2202 E McDowell Rd Suite 5
 location-link: http://google.com
-location-city-st: Corpus Christi, TX
-region: EU
+location-city-st: Phoenix, AZ 85006
+region: USA
 ---
-
-laksjdfl;aksjdf

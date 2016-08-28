@@ -1,17 +1,15 @@
 ---
-title: London
+title: Dallas
 date: 2016-08-08 12:36:52 Z
-event-date: December 1, 2016
+event-date: Wednesday, October 26, 2016
 collection: events
-image: http://placehold.it/600x600
+image: img/so-3.png
 featured-image: http://placehold.it/800x300
 reg-link: http://google.com
 layout: event
-location-name: Location Name
-location-address: Location Address
-location-city-st: Corpus Christi, TX
+location-name: Terralux
+location-address: 1225 Round Table Dr
+location-city-st: Dallas, TX 75247
 location-link: http://google.com
-region: EU
+region: USA
 ---
-
-laksjdfl;aksjdf

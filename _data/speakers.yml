@@ -1,0 +1,32 @@
+- name: Bella & Pratik
+  city: Dallas, Chicago, Los Angeles
+
+- name: Clay Cook
+  city: Dallas, Chicago
+
+- name: Erika Blatt
+  city: Dallas, Chicago, Los Angeles, New York, Toronto, Philadelphia
+
+- name: Felix Kunze
+  city: Los Angeles, Philadelphia
+
+- name: Jaron Schneider
+  city: Philadelpia
+
+- name: Jeff Rojas
+  city: Dallas, Chicago, LA
+
+- name: Joseph Cartwright
+  city: Dallas, Chicago, LA
+
+- name: Michael Bonocore
+  city: Chicago
+
+- name: Michael Grecco
+  city: Los Angeles
+
+- name: Renee Robyn
+  city: Toronto
+
+- name: Tim Kemple
+  city: Toronto, Los Angeles, Philadelphia

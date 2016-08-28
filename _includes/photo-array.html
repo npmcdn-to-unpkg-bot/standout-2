@@ -1,0 +1,30 @@
+<div class="container" style="margin-top:50px;">
+  <div class="photo-array">
+    <a href="{{ "/regions/usa/" | prepend: site.baseurl }}" class="animsition-link">
+    <div data-aos="fade-up" data-aos-duration="1000" class="col-xs-12 col-sm-9 photo-array-1"><img src="{{ "img/so-1.png" | prepend: site.baseurl }}" data-aos="fade-up" data-aos-duration="3000" /></div>
+    <div data-aos="fade-up" data-aos-duration="800" class="col-xs-8 col-xs-offset-3 col-sm-10 col-sm-offset-2 photo-array-2"><img src="{{ "img/so-4.png" | prepend: site.baseurl }}"/></div>
+    <div class="col-xs-10 col-xs-offset-2 col-sm-2 col-sm-offset-3 photo-array-3">
+      <div data-aos="fade-left" data-aos-duration="800" data-aos-offset="220" style="height:20px; background-color:red; width: 260px;">&nbsp;</div>
+      <h1 data-aos="fade-up" data-aos-duration="1500" style="margin-top: -60px;">USA</h1>
+    </div>
+  </a>
+  <div class="col-xs-12 col-xs-offset" style="padding-top:80px;">
+      <ul>
+      {% for event in site.events %}
+      {% if event.region == "USA" %}
+        <a href="{{ event.url | prepend: site.baseurl }}" class="animsition-link">
+          <li class="col-xs-12 col-sm-4 event">
+            {% if event.title %}
+            <h3>{{ event.title }}</h3>
+            {% endif %}
+            {% if event.event-date %}
+            <h6>{{ event.event-date }}</h6>
+            {% endif %}
+          </li>
+        </a>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  </div>
+</div>

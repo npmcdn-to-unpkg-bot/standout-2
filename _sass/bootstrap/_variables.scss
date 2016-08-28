@@ -43,8 +43,8 @@ $link-hover-decoration: none !default;
 //
 //## Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:  "Karla", Helvetica, Arial, sans-serif !default;
-$font-family-serif:       "Futura", Times, serif !default;
+$font-family-sans-serif:  "proxima-nova", helvetica, arial !default;
+$font-family-serif:       "proxima-nova", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Base Mono Wide", monospace !default;
 $font-family-base:        $font-family-sans-serif !default;
@@ -362,20 +362,20 @@ $container-lg:                 $container-large-desktop !default;
 //##
 
 // Basics of a navbar
-$navbar-height:                    58px !default;
-$navbar-margin-bottom:             $line-height-computed !default;
+$navbar-height:                    50px !default;
+$navbar-margin-bottom:             0px !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          4px !default;
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                transparent !default;
+$navbar-default-bg:                #fff !default;
 $navbar-default-border:            none !default;
 
 // Navbar links
-$navbar-default-link-color:                #000 !default;
-$navbar-default-link-hover-color:          #fff !default;
+$navbar-default-link-color:                #999 !default;
+$navbar-default-link-hover-color:          #888 !default;
 $navbar-default-link-hover-bg:             transparent !default;
 $navbar-default-link-active-color:         #555 !default;
 $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
@@ -616,9 +616,9 @@ $modal-header-border-color:   #e5e5e5 !default;
 //** Modal footer border color
 $modal-footer-border-color:   $modal-header-border-color !default;
 
-$modal-lg:                    900px !default;
-$modal-md:                    600px !default;
-$modal-sm:                    300px !default;
+$modal-lg:                    90% !default;
+$modal-md:                    60% !default;
+$modal-sm:                    30% !default;
 
 
 //== Alerts

@@ -1,17 +1,16 @@
 ---
 title: Chicago
 date: 2016-08-08 12:36:52 Z
-event-date: December 1, 2016
+event-date: Thursday, November 3
 collection: events
-image: http://placehold.it/900x900
+image: img/so-1.png
 featured-image: http://placehold.it/900x300
 reg-link: http://google.com
-location-name: Location Name
-location-address: Location Address
-location-city-st: Corpus Christi, TX
+location-name: Zbou Art Center
+location-address: 1029 W 35th St
+location-city-st: Chicago, IL 60609
 location-link: http://google.com
 layout: event
 region: USA
+speakers: Bella Kotak and Pratik Naik, Clay Cook, Erika Blatt, Jaron Schneider, Jeff Rojas, Joseph Cartwright, Michael Bonocore
 ---
-
-laksjdfl;aksjdf

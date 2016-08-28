@@ -3,16 +3,9 @@
 <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/misc.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/bower_components/aos/dist/aos.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
 <script src="https://use.typekit.net/djc3asi.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
-
-<script>
-AOS.init({
-easing: 'ease-out-expo',
-});
-</script>
 
 <script>
 $(document).ready(function() {
@@ -42,7 +35,18 @@ $(document).ready(function() {
 </script>
 
 <script>
-  $(document).ready(function(){
-    $("#header").sticky({topSpacing:0});
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
   });
+});
 </script>

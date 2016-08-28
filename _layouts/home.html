@@ -3,15 +3,20 @@
 <html>
 
   {% include head.html %}
-  {% include pre-header.html %}
-  {% include header.html %}
 
-  <body class="animsition">
-    <div class="page-body">{{ content }}</div>
-{% include footer.html %}
-
+<body class="ansimition">
+  <div class="container-fluid">
+    <div class="row">
+      {% include header.html %}
+    </div>
+    <div class="row">
+      {{ content }}
+    </div>
+    <div class="row">
+      {% include footer.html %}
+    </div>
+  </div>
 </body>
-
 
 {% include js.html %}
 

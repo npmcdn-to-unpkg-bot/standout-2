@@ -1,27 +1,31 @@
-<nav class="navbar header-sticky-wrapper" style="background-color:white;z-index10000;">
-  <div class="container-fluid" id="header">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}"><img src="{{ '/img/logo-black.png' | prepend: site.baseurl }}" /></a>
+<nav class="navbar" id="header">
+  <div class="container-fluid navbar-fixed-top">
+    <div class="row">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse container" id="bs-example-navbar-collapse-1">
+        <div class="row">
+          <div class="col-xs-12">
+            <ul class="nav navbar-nav row">
+              {% for my_page in site.pages %}
+              {% if my_page.title %}
+              <li>
+                <a class="navbar-nav" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+              </li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </div>
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li>
-          <a class="navbar-nav" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  </div>
 </nav>

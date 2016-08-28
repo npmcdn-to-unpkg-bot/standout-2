@@ -1,168 +1,21 @@
-.cover {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 100%;
-}
-
-.tv {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -100;
-
-.screen {
-    position: relative;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    z-index: -900;
-    opacity: 0;
-    transition: opacity .5s;
-
-    &.active {
-      opacity: 1;
-    }
-  }
-}
-
-.hi {
-    position: absolute;
+.hero {
+  position: absolute;;
     top: 50%;
-    left: 50%;
+    left:50%;
     transform: translate(-50%,-50%);
-    z-index:400;
-
-    color: #fff;
-  }
-
-.page-body {
-  padding-bottom:100px;
 }
 
-.page-content {
+.content {
   z-index: 500;
   position: relative;
-  margin:20px;
+  margin-top:120px;
+  margin-bottom:20px;
 }
 
 
-.sidebar {
-    background-color:transparent;
-    max-height:80px;
-    margin:0;
-    text-align:center;
-    position: relative;
-    z-index: 700;
-
-    @media (min-width: $screen-sm-min) {
-          background-color:transparent;
-          margin:0;
-          text-align:left;
-        }
-  }
-
-  .sidebar ul {
-    margin: 10px;
-    transform: rotate(90deg);
-    transform-origin: left;
-    position: fixed;
-    width: 100%;
-    min-width:100vh;
-    max-height: 20px;
-    overflow:hidden;
-    text-align:left;
-
-
-    @media (min-width: $screen-sm-min) {
-      position:fixed;
-    }
-
-  }
-
-.sidebar li {
-  display: inline-block;
-  padding-right: 0px;
-  margin:0;
-  font-size: 4em;
-
-  @media (min-width: $screen-sm-min) {
-    display: inline-block;
-    margin:0;
-  }
-
-  h6 {
-    margin:0px;
-    padding-top:0px;
-    padding-bottom:0px;
-  }
-
-  a {
-    letter-spacing: 2px;
-    padding-right: 18px;
-    text-decoration: none;
-    line-height: 0.4;
-    color: black;
-    margin:0;
-  }
+.page-content {
+  margin: 30px;
 }
-
-
-
-.big-header {
-  text-align: center;
-  vertical-align:middle;
-  position:relative;
-  z-index: 2;
-  width: 100%;
-}
-
-.intro {
-
-  h1 {
-    font-size: 3.8em;
-  }
-
-  h5 {
-    letter-spacing:5px;
-    margin-top: 10px;
-  }
-
-  h2 {
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin-top: 10px;
-    }
-
-  h4 {
-    margin-top: 10px;
-  }
-
-    a {
-            font-weight: 500;
-    }
-
-    p {
-      margin-bottom: 6px;
-    }
-
-    .btn {
-      margin-top:10px;
-    }
-}
-
-.big-header-text {
-      padding-top: 100px;
-      padding-bottom:100px;
-}
-
 
 footer {
   z-index: 2000;
@@ -253,19 +106,7 @@ footer {
   height: 100%;
 }
 
-.event {
-    list-style: none;
-    margin-bottom:30px;
-}
 
-.event-details {
-      position: absolute;
-      top: 70px;
-      /* margin-left: 20px; */
-      background-color: white;
-      padding: 10px;
-      max-width: 270px;
-  }
 
 
   .speaker {
@@ -293,13 +134,7 @@ footer {
   }
 
   .speaker-social {
-    text-align:right;
-    position:absolute;
-    bottom:0;
-    right:0;
-    font-family:"base-mono-wide", sans-serif;
-    letter-spacing: 5px;
-    text-transform: uppercase;
+    letter-spacing: 2px;
   }
 
 .speaker-details {
@@ -312,6 +147,7 @@ footer {
     .seminar {
         list-style: none;
         margin-bottom:30px;
+        padding-right:20px;
     }
 
     .seminar a {
@@ -385,5 +221,211 @@ footer {
   .sponsor li {
     list-style: none;
   }
+}
 
+.sidebar {
+    background-color: black;
+    min-width: 90px;
+    padding: 10px;
+    display:inline-block;
+  }
+
+.sidebar a {
+  color: white;
+}
+
+
+
+.event-single {
+  list-style: none;
+   background-color: blue;
+}
+
+.event-details a {
+  color: #9af6ff;
+  text-decoration: none;
+}
+
+.event-details h2 {
+      text-transform: none;
+      font-weight: 800;
+    }
+
+.event-details {
+  position: absolute;
+  bottom:10px;
+  left: 10px;
+  bottom: 5px;
+    left: 30px;
+}
+
+
+  /* Gray Scale */
+
+  .image-box figure a {
+    color: #9af6ff;
+text-transform: uppercase;
+letter-spacing: 4px;
+  }
+
+  .image-box figure img {
+  	-webkit-filter: grayscale(100%) opacity(0.6);
+  	filter: grayscale(100%) opacity(0.6);
+  	-webkit-transition: .3s ease-in-out;
+  	transition: .3s ease-in-out;
+          min-height:300px;
+  }
+  .image-box figure:hover img {
+  	-webkit-filter: grayscale(0) opacity(1);
+  	filter: grayscale(0) opacity(1);
+  }
+
+
+
+
+
+
+
+  /* content styles */
+
+.inside {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #ededed;
+  background: -webkit-gradient(linear, left top, left bottom,color-stop(0%, #f4f4f4), color-stop(100%, #ededed));
+  background: -moz-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
+  background: -ms-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
+}
+.inside-full-height {
+  /*
+  // if you want to give content full height give him height: 100%;
+  // with content full height you can't apply margins to the content
+  // content full height does not work in ie http://stackoverflow.com/questions/27384433/ie-display-table-cell-child-ignores-height-100
+  */
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: black;
+  position: fixed;
+}
+
+
+/* columns of same height styles */
+
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+
+@media (min-width: 480px) {
+  .row-xs-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-xs-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-xs-top {
+    vertical-align: top;
+  }
+  .col-xs-middle {
+    vertical-align: middle;
+  }
+  .col-xs-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-sm-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-sm-top {
+    vertical-align: top;
+  }
+  .col-sm-middle {
+    vertical-align: middle;
+  }
+  .col-sm-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-md-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-md-top {
+    vertical-align: top;
+  }
+  .col-md-middle {
+    vertical-align: middle;
+  }
+  .col-md-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-lg-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-lg-top {
+    vertical-align: top;
+  }
+  .col-lg-middle {
+    vertical-align: middle;
+  }
+  .col-lg-bottom {
+    vertical-align: bottom;
+  }
+}
+
+
+.intro {
+  padding-top:40px;
 }

@@ -1,0 +1,14 @@
+<div class="container-fluid">
+    <div class="col-sm-12">
+    <a href="{{ site.baseurl }}"><img src="/img/Stand-out-icon-white.png" style="width:70px;padding-bottom:20px;margin-left:-20px;"/> </a>
+  </div>
+  <div class="col-sm-12" style="color:black;">
+    <ul id="menu">
+    {% for event in site.events %}
+    <li>
+      <h5><a href="{{ event.url }}">{{ event.title }}</a></h5>
+    </li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
