@@ -14,5 +14,5 @@ layout: event
 region: USA
 speakers: Bella Kotak and Pratik Naik, Clay Cook, Erika Blatt, Jaron Schneider, Jeff
   Rojas, Joseph Cartwright, Michael Bonocore
+permalink: /chicago
 ---
-

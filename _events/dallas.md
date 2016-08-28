@@ -12,5 +12,5 @@ location-address: 1225 Round Table Dr
 location-city-st: Dallas, TX 75247
 location-link: http://google.com
 region: USA
+permalink: /dallas
 ---
-

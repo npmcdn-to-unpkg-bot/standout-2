@@ -12,5 +12,5 @@ location-city-st: Los Angeles, CA 90007
 location-link: http://google.com
 layout: event
 region: USA
+permalink: /la
 ---
-
