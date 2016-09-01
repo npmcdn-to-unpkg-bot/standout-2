@@ -4,7 +4,7 @@ date: 2016-08-08 12:36:52 Z
 permalink: "/dallas"
 event-date: Wednesday, October 26, 2016
 collection: events
-image: /img/so-3.png
+image: "/img/so-3.png"
 featured-image: https://placehold.it/800x300
 reg-link: https://google.com
 layout: event
@@ -14,3 +14,4 @@ location-city-st: Dallas, TX 75247
 location-link: https://google.com
 region: USA
 ---
+
