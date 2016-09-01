@@ -4,7 +4,7 @@ date: 2016-08-08 12:36:52 Z
 permalink: "/phoenix"
 event-date: Thursday, November 17, 2016
 collection: events
-image: img/phoenix.jpg
+image: img/so-4.png
 featured-image: http://placehold.it/800x300
 reg-link: http://google.com
 layout: event

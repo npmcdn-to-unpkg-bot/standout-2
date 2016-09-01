@@ -69,11 +69,10 @@
             <div class="row">
               <div class="col-xs-10 col-xs-offset-1" style="padding-top:100px;" id="seminars">
                 <div class="row">
-                  <ul style="margin:0; padding-left:0;">
+                  <ul>
                     {% for seminar in site.seminars %}
                     {% if seminar.cities contains page.title %}
-                    {% if seminar.type contains "seminar" %}
-                    <li class="col-xs-12 col-sm-4 seminar" style="margin:0; padding-left:0;">
+                    <li class="col-xs-12 col-sm-4 seminar" style="margin:0; padding-right:0;">
                       <div class="seminar-details" style="height:700px; overflow:hidden; padding-bottom:20px;">
                         {% if seminar.image %}
                         <div class="image-box">
@@ -92,7 +91,6 @@
                       </div>
                     </li>
                     {% endif %}
-                    {% endif %}
                     {% endfor %}
                   </ul>
                 </div>
@@ -106,15 +104,15 @@
               </div>
               <hr class="line-full" />
                 <div class="schedule">
-                  {% for seminar in site.seminars reversed %}
+                  {% for seminar in site.seminars %}
                   {% if seminar.cities contains page.title %}
                   <div class="row">
                     <div class="col-xs-2">{{ seminar.time }}</div>
                     <div class="col-xs-6">{{ seminar.title }}</div>
                     <div class="col-xs-3">{{ seminar.speaker }}</div>
                   </div>
-                  <hr class="line-full" />
                   {% endif %}
+                  <hr class="line-full" />
                   {% endfor %}
                 </div>
               </div>
@@ -128,7 +126,7 @@
                   </div>
                 </div>
                 <hr class="line-full-red">
-                <div class="row sponsor" style="padding-bottom:60px;">
+                <div class="row sponsor">
                   <ul>
                     {% for sponsor in site.sponsors %}
                     {% if sponsor.city contains page.title %}
@@ -144,7 +142,7 @@
               </div>
             </div>
           </div>
-  {% include early-bird.html %}
+
         </div>
       </div>
     </div>
