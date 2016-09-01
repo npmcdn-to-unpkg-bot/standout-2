@@ -1,19 +1,12 @@
 ---
-title: Tell Deeper Stories
+title: Tips and Techniques for Creating Unique Travel Photographs
 date: 2016-08-08 00:00:00 Z
-cities: London, Paris, New York, Chicago, Los Angeles
-speaker: Jodi Jones
-image: http://i0.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Jodi_Jones_4_A6582156ret3_9x12_HighRes.png?w=1184
-desc: Learn to shoot with purpose and create new work at a deeper, more impactful
-  level. Jodi Jones will talk about the importance of storytelling with photography
-  to get the attention of your audience and engage them. Know what you want to say
-  before taking the shot! She will cover the importance of shooting with a purpose
-  and talk about her philosophy behind some of her images. Jodi will detail how she
-  finds inspiration, then molds it into a shoot, and how through carefully thought-out
-  techniques one can convey a stronger message in their work, no matter what kind
-  of photography one shoots. Don’t miss this exciting seminar!
+cities: Chicago
+speaker: Michael Bonocore
+image: http://placehold.it/500x500
+desc: Resource Magazine’s Travel Editor  will take you on a journey around the world with a collection of intriguing photographs and stories from his years as a full time travel photographer and filmmaker. Michael will provide tips and techniques that will help you not only make your travel photographs better, but also, more unique. Michael tells you how to get off of the typical tourist routes and work within the local communities to capture captivating images that will make your travel galleries unlike anything your friends, family, and clients have ever seen before.
 collection: seminars
 layout: seminars
-time: 3 - 4pm
+time: 2:45 - 3:30
+type: seminar
 ---
-

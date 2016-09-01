@@ -40,8 +40,20 @@ collections:
     title: Uploads
     output: true
 navigation:
+- root: Home
+  url: {{ site.baseurl }}
+- root: Sponsors
+  url: "/sponsors"
+- root: Specials
+  url: "/specials"
+- root: Get Inspired
+  url: "/get-inspired"
+- root: About
+  url: "/about"
+- root: Contact Us
+  url: "/contact"
 - root: Events
-  url: 
+  url:
   first-level:
   - text: Chicago
     url: "/chicago"
