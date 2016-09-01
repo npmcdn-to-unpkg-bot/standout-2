@@ -14,7 +14,6 @@ dl, dd, ol, ul, figure {
  */
 body {
     font: 400 #{$base-font-size}/#{$base-line-height};
-    color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -184,7 +183,7 @@ pre {
 
 ul {
 display: block;
-    list-style-type: disc;
+    list-style-type: none;
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     -webkit-margin-start: 0px;

@@ -19,12 +19,22 @@
 
 footer {
   z-index: 2000;
-  background-color: black;
+  background-color: #cecece;
   position: absolute;
-  min-height:200px;
-  width:100%;
-  color:white;
-  padding: 30px 0px;
+  width: 100%;
+  color: white;
+  padding: 10px 0px;
+  float: right;
+  text-align:right;
+
+  i {
+    color:white;
+    padding:10px 10px;
+  }
+
+  a {
+    color:white;
+  }
 }
 
 
@@ -135,6 +145,12 @@ footer {
 
   .speaker-social {
     letter-spacing: 2px;
+    padding-left:5px;
+    padding-top:5px;
+
+i {
+  padding-right:10px;
+}
   }
 
 .speaker-details {
@@ -233,7 +249,7 @@ footer {
 }
 
 .sidebar {
-    background-color: black;
+    background-color: #cecece;
     min-width: 90px;
     padding: 10px;
     display:inline-block;
@@ -245,10 +261,6 @@ footer {
 
 
 
-.event-single {
-  list-style: none;
-   background-color: blue;
-}
 
 .event-details a {
   color: #9af6ff;
@@ -262,9 +274,11 @@ footer {
 
 .event-details {
   position: absolute;
-  top:5px;
-  left: 8px;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
+
 
 
   /* Gray Scale */
@@ -294,13 +308,26 @@ transition: .3s ease-in-out;
   }
 
 
-
-h6 {
-  letter-spacing:1px;
+.image-box {
+    position: relative;
+    height: 250px;
+    text-align: center;
 }
 
 
-
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
 
   /* content styles */
@@ -308,10 +335,6 @@ h6 {
 .inside {
   margin-top: 20px;
   margin-bottom: 20px;
-  background: #ededed;
-  background: -webkit-gradient(linear, left top, left bottom,color-stop(0%, #f4f4f4), color-stop(100%, #ededed));
-  background: -moz-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
-  background: -ms-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
 }
 .inside-full-height {
   /*
@@ -322,7 +345,6 @@ h6 {
   height: 100%;
   margin-top: 0;
   margin-bottom: 0;
-  background: black;
   position: fixed;
 }
 
@@ -337,7 +359,6 @@ h6 {
 }
 .col-height {
   display: table-cell;
-  float: none;
   height: 100%;
 }
 .col-top {
@@ -359,7 +380,6 @@ h6 {
   }
   .col-xs-height {
     display: table-cell;
-    float: none;
     height: 100%;
   }
   .col-xs-top {
@@ -452,3 +472,15 @@ h6 {
 a.active {
   color: #9a766f;
 }
+
+
+h3 {
+    background-image: linear-gradient(to bottom, #fefefe(10%), #727272);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    a {
+      color: transparent;
+    }
+  }

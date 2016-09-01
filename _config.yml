@@ -41,7 +41,7 @@ collections:
     output: true
 navigation:
 - root: Events
-  url: 
+  url:
   first-level:
   - text: Chicago
     url: "/chicago"

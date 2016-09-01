@@ -23,11 +23,10 @@ layout: default
         </div>
         <div class="row">
           <div class="col-xs-12 speaker-social">
-            {% if speaker.facebook-url %}<a href="{{ facebook-url }}">f</a>{% endif %}
-            {% if speaker.instagram-url %}<a href="{{ instagram-url }}">i</a>{% endif %}
-            {% if speaker.youtube-url %}<a href="{{ page.youtube-url }}">y</a>{% endif %}
-            {% if speaker.vimeo-url %}<a href="{{ page.vimeo-url }}">v</a>{% endif %}
-            {% if speaker.linkedin-url %}<a href="{{ page.linkedin-url }}">l</a>{% endif %}
+            {% if speaker.facebook-url %}<a href="{{ facebook-url }}"><i class="fa fa-facebook-f fa-sm"></i></a>{% endif %}
+            {% if speaker.instagram-url %}<a href="{{ instagram-url }}"><i class="fa fa-instagram fa-sm"></i></a>{% endif %}
+            {% if speaker.youtube-url %}<a href="{{ page.youtube-url }}"><i class="fa fa-youtube-play fa-sm"></i></a>{% endif %}
+            {% if speaker.vimeo-url %}<a href="{{ page.vimeo-url }}"><i class="fa fa-vimeo fa-sm"></i></a>{% endif %}
           </div>
         </div>
       </div>
