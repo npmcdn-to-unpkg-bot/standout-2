@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="container content">
+    <div class="row" style="padding-bottom:100px;">
+        {% for event in site.events %}
+        <div class="col-xs-6 col-sm-6 event image-box blue" style="padding:0px;">
+          <a href="{{ event.url }}" class="animsition-link">
+            <figure><img src="{{ event.image | prepend: site.baseurl }}"  style="height:350px; width:100%;"/>
+              <div class="overlay"></div>
+            <div class="event-details" style="text-align:center;">
+              {% if event.title %}
+              <h2 style="color:white;">{{ event.title }}</h1>
+              {% endif %}
+              {% if event.date %}
+              <p style="color:white;">{{ event.event-date }}</p>
+              {% endif %}
+            </div>
+          </figure>
+        </a>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+</div>

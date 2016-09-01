@@ -4,7 +4,7 @@ date: 2016-08-08 12:36:52 Z
 permalink: "/chicago"
 event-date: Thursday, November 3
 collection: events
-image: img/so-1.png
+image: img/chicago.jpg
 featured-image: http://placehold.it/900x300
 reg-link: http://google.com
 location-name: Zbou Art Center

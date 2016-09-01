@@ -7,6 +7,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="row-height">
+<<<<<<< HEAD
       <div class="hidden-xs col-sm-2 col-sm-height" style="background-color: #cecece;">
         <div class="inside inside-full-height sidebar">
         {% include sidebar-speakers.html %}
@@ -15,25 +16,27 @@
       <div class="col-xs-12">
         <div class="row">
           {% include header.html %}
+=======
+        <div class="hidden-xs col-sm-2 col-sm-height" style="background-color:black;">
+          <div class="inside inside-full-height sidebar" style="background-color:black;">
+          {% include sidebar-speakers.html %}
+          </div>
+>>>>>>> origin/master
         </div>
-        <div class="row">
-
-          <div class="container-fluid page-content">
-            <div class="row">
-              <div class="col-xs-12">
-                <ul>
-                  {% for speaker in site.speakers %}
-                  <li style="list-style:none;margin-bottom:80px;">
+        <div class="col-xs-12">
+          <div class="row">
+            {% include header.html %}
+          </div>
+          <div class="row">
+            <div class="container page-content">
+              <div class="row">
+                <div class="col-xs-12">
                   <div class="row">
-                    <div class="col-xs-12 col-sm-3">
-                      <img src="{{ speaker.headshot }}" />
-                    </div>
-                    <div class="col-xs-10 col-sm-9">
-                      <div class="row" style="position:relative;">
-                        <div class="col-xs-12">
-                        <h3 style="line-height:1;"><a href="{{ page.url }}">{{ speaker.title }}</a></h3>
+                    {% for speaker in site.speakers %}
+                      <div class="col-xs-12 col-sm-2">
+                        <img src="{{ speaker.headshot }}" style="margin-bottom:30px;"/>
                       </div>
-                      </div>
+<<<<<<< HEAD
                       <div class="row">
                         <div class="col-xs-12">
                           <p class="small" style="margin-bottom:0px;"><span style="font-weight:600;">Events:</span><span style="font-weight:400;"> {{ speaker.city }}</span></p>
@@ -48,9 +51,33 @@
                       </div>
                       <div class="row">
                         <div class="col-xs-12">
+=======
+                      <div class="col-xs-10 col-sm-10">
+                        <div class="row" style="position:relative;">
+                          {% if speaker.title %}
+                          <h3 style="line-height:1;"><a href="{{ website-url }}"></a>{{ speaker.title }}</a></h3>
+                          {% endif %}
+                          {% if speaker.city %}
+                          <p class="small"><span style="font-weight:600;">Events:</span><span style="font-weight:400;"> {{ speaker.city }}</span></p>
+                          {% endif %}
+                          {% if seminar.speaker contains speaker.title %}
+                          <p class="small"><span style="font-weight:600;">Seminar:</span><span style="font-weight:400;"> {{ seminar.title }} </span></p>
+                          {% endif %}
+                          <hr class="line-full" style="margin-top:0px; margin-bottom:5px;" />
+                          {% if speaker.bio %}
+>>>>>>> origin/master
                           <p class="small">{{ speaker.bio }}</p>
+                          {% endif %}
+                        <!--  <div class="col-xs-12 speaker-social">
+                            {% if speaker.facebook-url %}<a href="{{ facebook-url }}">f</a>{% endif %}
+                            {% if speaker.instagram-url %}<a href="{{ instagram-url }}">i</a>{% endif %}
+                            {% if speaker.youtube-url %}<a href="{{ page.youtube-url }}">y</a>{% endif %}
+                            {% if speaker.vimeo-url %}<a href="{{ page.vimeo-url }}">v</a>{% endif %}
+                            {% if speaker.linkedin-url %}<a href="{{ page.linkedin-url }}">l</a>{% endif %}
+                          </div> -->
                         </div>
                       </div>
+<<<<<<< HEAD
                       <div class="row">
                       <div class="col-xs-12 col-sm-5 speaker-social">
                         <div class="col-xs-12 speaker-social">
@@ -60,25 +87,20 @@
                           {% if speaker.vimeo-url %}<a href="{{ page.vimeo-url }}"><i class="fa fa-vimeo fa-sm"></i></a>{% endif %}
                         </div>
                       </div>
+=======
+>>>>>>> origin/master
                     </div>
-                    </div>
-                  </div>
-                </li>
-                {% endfor %}
-
-              </ul>
+                  {% endfor %}
+                </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
-    </div>
-      </div>
     <div class="row">
-    {% include footer.html %}
+      {% include footer.html %}
+    </div>
   </div>
-</div>
 </body>
 
 {% include js.html %}

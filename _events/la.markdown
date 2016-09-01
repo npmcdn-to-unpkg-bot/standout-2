@@ -4,7 +4,7 @@ date: 2016-08-08 12:36:52 Z
 permalink: "/la"
 event-date: Tuesday, November 15, 2016
 collection: events
-image: img/so-2.png
+image: img/la.jpg
 featured-image: http://placehold.it/900x300
 reg-link: http://google.com
 location-name: Magic Box/ The Reef
