@@ -41,7 +41,7 @@ collections:
     output: true
 navigation:
 - root: Home
-  url: {{ site.baseurl }}
+  url: {}
 - root: Sponsors
   url: "/sponsors"
 - root: Specials
@@ -53,7 +53,7 @@ navigation:
 - root: Contact Us
   url: "/contact"
 - root: Events
-  url:
+  url: 
   first-level:
   - text: Chicago
     url: "/chicago"

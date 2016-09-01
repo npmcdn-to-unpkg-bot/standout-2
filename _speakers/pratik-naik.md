@@ -5,10 +5,11 @@ collection: speakers
 city: Los Angeles
 headshot: http://placehold.it/300x300
 featured-image: http://placehold.it/300x300
-bio: "bio"
+bio: bio
 layout: speaker
 website-url: www.solsticeretouch.com
 facebook-url: https://www.facebook.com/highendretoucher
 instagram-url: www.instagram.com/solsticeretouch
 twitter-url: https://twitter.com/solsticeretouch
 ---
+
