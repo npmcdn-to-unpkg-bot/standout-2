@@ -3,8 +3,8 @@ title: Mark Seliger
 date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: New York City, Chicago, Los Angeles, London, Paris
-headshot: http://i0.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Mark-Seliger.png?w=1184
-featured-image: http://placehold.it/1500x500
+headshot: https://i0.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Mark-Seliger.png?w=1184
+featured-image: https://placehold.it/1500x500
 bio: Mark Seliger was born in Amarillo Texas in 1959, where he lived with his parents,
   Maurice and Carol Lee, and his two older brothers and younger sister, until 1964,
   when they moved to Houston. Seliger’s early interest in photography began when his
@@ -18,10 +18,10 @@ bio: Mark Seliger was born in Amarillo Texas in 1959, where he lived with his pa
   to New York City in 1984. In 1987, he began shooting for Rolling Stone. He was signed
   as their Chief Photographer in 1992.
 layout: speaker
-facebook-url: http://facebook.com
-youtube-url: http://youtube.com
-vimeo-url: http://vimeo.com
-instagram-url: http://instagram.com
-linkedin-url: http://linkedin.com
+facebook-url: https://facebook.com
+youtube-url: https://youtube.com
+vimeo-url: https://vimeo.com
+instagram-url: https://instagram.com
+linkedin-url: https://linkedin.com
 ---
 

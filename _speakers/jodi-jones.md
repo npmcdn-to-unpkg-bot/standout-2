@@ -3,8 +3,8 @@ title: Jodi Jones
 date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: New York City, Chicago, Los Angeles, London, Paris
-headshot: http://placehold.it/600x600
-featured-image: http://placehold.it/800x500
+headshot: https://placehold.it/600x600
+featured-image: https://placehold.it/800x500
 bio: JODI JONES is a two time SILVER LIONS AWARD WINNER at the CANNES INTERNATIONAL
   FESTIVAL of CREATIVITY for 2015 and the founder of Jodi Jones Studio, a visionary
   studio that specializes in Creative Direction, Photography, Motion, Branding, Consulting
@@ -17,10 +17,10 @@ bio: JODI JONES is a two time SILVER LIONS AWARD WINNER at the CANNES INTERNATIO
   entrepreneurship, and photography. Jodi is represented by ZUMA PRESS MULTIMEDIA.
   Moby says “Jodi kicks ass.”
 layout: speaker
-facebook-url: http://facebook.com
-youtube-url: http://youtube.com
-vimeo-url: http://vimeo.com
-instagram-url: http://instagram.com
-linkedin-url: http://linkedin.com
+facebook-url: https://facebook.com
+youtube-url: https://youtube.com
+vimeo-url: https://vimeo.com
+instagram-url: https://instagram.com
+linkedin-url: https://linkedin.com
 ---
 

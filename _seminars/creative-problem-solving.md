@@ -5,7 +5,7 @@ collection: seminars
 time: 1 - 2pm
 cities: London, Paris, New York, Chicago, Los Angeles
 speaker: Pratik Naik
-image: http://i2.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Steve-Image-1.png?w=1184
+image: https://i2.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Steve-Image-1.png?w=1184
 layout: speaker
 desc: I’ll take you through the world of commercial and editorial retouching. We’ll
   look at the core principles of efficient retouching and the industry standards.

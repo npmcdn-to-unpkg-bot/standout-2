@@ -3,8 +3,8 @@ title: Bill Cramer
 date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: New York City, Chicago, Los Angeles, London, Paris
-headshot: http://i0.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Bill_Cramer.png?w=1184
-featured-image: http://placehold.it/300x300
+headshot: https://i0.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Bill_Cramer.png?w=1184
+featured-image: https://placehold.it/300x300
 bio: Bill Cramer is founder and CEO of Wonderful Machine, a production company with
   a network of over 700 photographers worldwide. Bill started Wonderful Machine after
   spending 20 years shooting assignments for editorial, corporate and advertising
@@ -15,10 +15,10 @@ bio: Bill Cramer is founder and CEO of Wonderful Machine, a production company w
   where he now concentrates his efforts. He has received a number of industry awards,
   and has been included in Communication Arts Photography Annual three times.
 layout: speaker
-facebook-url: http://facebook.com
-youtube-url: http://youtube.com
-vimeo-url: http://vimeo.com
-instagram-url: http://instagram.com
-linkedin-url: http://linkedin.com
+facebook-url: https://facebook.com
+youtube-url: https://youtube.com
+vimeo-url: https://vimeo.com
+instagram-url: https://instagram.com
+linkedin-url: https://linkedin.com
 ---
 

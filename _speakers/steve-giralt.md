@@ -3,8 +3,8 @@ title: Steve Giralt
 date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: New York City, Chicago, Los Angeles, London, Paris
-headshot: http://i2.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Steve-Giralt.png?w=1184
-featured-image: http://placehold.it/400x400
+headshot: https://i2.wp.com/www.standoutphotoforum.com/wp-content/uploads/2015/07/Steve-Giralt.png?w=1184
+featured-image: https://placehold.it/400x400
 bio: Steve Giralt is a very passionate Miami, FL born cuban photographer who likes
   to smile a lot and is fun at parties. Although he comes from a family of engineers,
   he studied advertising photography at Rochester Institute of Technology. While at
@@ -19,10 +19,10 @@ bio: Steve Giralt is a very passionate Miami, FL born cuban photographer who lik
   things in his workshop, at home in Brooklyn with his family, or finding a new adventure
   somewhere. Steve still does not sleep very much.
 layout: speaker
-facebook-url: http://facebook.com
-youtube-url: http://youtube.com
-vimeo-url: http://vimeo.com
-instagram-url: http://instagram.com
-linkedin-url: http://linkedin.com
+facebook-url: https://facebook.com
+youtube-url: https://youtube.com
+vimeo-url: https://vimeo.com
+instagram-url: https://instagram.com
+linkedin-url: https://linkedin.com
 ---
 

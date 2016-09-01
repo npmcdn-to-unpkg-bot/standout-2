@@ -4,7 +4,7 @@ date: 2016-08-08 12:36:52 Z
 collection: seminars
 speaker: Bill Cramer
 cities: London, Paris, New York, Chicago, Los Angeles
-image: http://placehold.it/300x300
+image: https://placehold.it/300x300
 desc: Being a great photographer is one thing, effectively communicating that expertise
   to clients is quite another. Join Wonderful Machine CEO Bill Cramer as he discusses
   how to determine your core brand and how to express it throughout all of your marketing
