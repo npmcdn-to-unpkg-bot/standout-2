@@ -52,7 +52,7 @@
               
               
               <li>
-                <a class="navbar-nav" href="/" >cities</a>
+                <a class="navbar-nav" href="/" >Events</a>
               </li>
               
               
@@ -113,7 +113,7 @@
           <div class="container-fluid">
   <div class="row page-content">
     
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 reveal">
       
       <iframe src="https://player.vimeo.com/video/144815525?title=0&byline=0&portrait=0"
         width="100%" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -121,7 +121,7 @@
       
     </div>
     
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 reveal">
       
       <iframe src="https://player.vimeo.com/video/144818780?title=0&byline=0&portrait=0"
         width="100%" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -129,7 +129,7 @@
       
     </div>
     
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 reveal">
       
       <iframe src="https://player.vimeo.com/video/144819792?title=0&byline=0&portrait=0"
         width="100%" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -137,7 +137,7 @@
       
     </div>
     
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 reveal">
       
       <iframe src="https://player.vimeo.com/video/110843289?title=0&byline=0&portrait=0"
         width="100%" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -145,7 +145,7 @@
       
     </div>
     
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6 reveal">
       
       <iframe src="https://player.vimeo.com/video/110370968?title=0&byline=0&portrait=0"
         width="100%" height="340" frameborder="0" webkitallowfullscreen mozallowfullscreen
@@ -181,6 +181,7 @@
 <script src="/js/bootstrap.js"></script>
 <script src="/js/misc.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
+<script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
 <script src="https://use.typekit.net/djc3asi.js"></script>
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 
@@ -226,6 +227,11 @@ $(function() {
     }
   });
 });
+</script>
+
+<script>
+window.sr = ScrollReveal();
+sr.reveal('.reveal', { easing: 'ease-in-out'});
 </script>
 
 

@@ -4,18 +4,9 @@ url: "/#"
 layout: default
 ---
 
-<div style="container-fluid">
+<div style="container-fluid" style="margin:-10px;">
   <div style="row" style="margin:-10px;">
     {% include cities.html %}
-    <div class="col-xs-6 col-sm-4 event image-box" style="padding:0px;background-color:#727272; height: 250px;">
-        <div style="padding:15px;">
-          <a href="#" class="animsition-link">
-            <h3 style="text-align:left;">Register Now</h3>
-            <hr class="line-white" style="text-align:left; margin-left:-40px;" />
-            <p style="text-align:left;position: absolute; bottom: 5px; left: 15px; right: 15px;color: #fff;">Early Bird Admission Fee until Sept. 30th for $49! After Sept. 30, Admission Fee will be $69. <br />
-            <span class="small" style="color: #fff;font-weight: 300;font-size: 80%;">* Admission fee may be used as a credit towards a purchase of $200 or more at the event. Some exclusions may apply. Must have event ticket and ID to be eligible.</span></p>
-          </a>
-        </div>
-    </div>
+    {% include newsletter-signup.html %}
   </div>
 </div>
