@@ -4,48 +4,52 @@ layout: home
 ---
 
 <div class="container-fluid" style="text-align:left;padding:0;">
-  <video autoplay>
-    <source src="{{ "/assets/stand-out-vid.mp4" | prepend: site.baseurl }}" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+  <div style="max-height:550px; overflow: hidden;">
+    <video autoplay>
+      <source src="{{ "assets/StandOut-Trailer-v2.mp4" | prepend: site.baseurl }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div style="col-xs-8 col-sm-6">
+    <img class="hero" src="{{ "/img/Stand-out-icon-transwhite.png" | prepend: site.baseurl }}" style="max-width:700px">
+  </div>
+  </div>
   <div class="row">
     <div class="container content">
       <div class="row">
         <div class="col-xs-12 col-s-6">
-          <h2>You came, you were inspired, informed and motivated!</h2>
-          <h1 class="gradient">Get ready for Stand Out 2016</h1>
-          <p>The Stand Out! Photographic Forums’ mission is to bring the photographic community together to inform, inspire and excite. Hear from innovative industry creatives and icons. Explore new ideas to differentiate yourself and your business. The Stand Out! event will also bring leading photographic brands under one roof to demonstrate their products to you in an intimate and meaningful manner. Put a face to the brand, meet some of the most knowledgeable resources in the industry. This event is ideal for professional photographers, photo assistants, advanced students or any imaging professional that would like to learn about the latest cutting-edge products and techniques being used in the professional digital image capture market in a hands-on and seminar based forum.</p>
+          <h1 class="gradient">What is STAND OUT?</h1>
+          <p style="font-size: 1.4em; font-weight:300;padding-top:20px;">The STAND OUT Photographic Forums brings the photographic community together to inform, inspire and excite. Hear from innovative industry creatives and icons. Explore new ideas to differentiate yourself and your business.</h4>
+          <p style="font-size: 1.4em; font-weight:300;padding-top:20px;">The STAND OUT event will also bring leading photographic brands under one roof to demonstrate their products to you in an intimate and meaningful manner. Put a face to the brand, meet some of the most knowledgeable resources in the industry.</h4>
+          <p style="font-size: 1.4em; font-weight:300;padding-top:20px;">This event is ideal for professional photographers, photo assistants, advanced students or any imaging professional that would like to learn about the latest cutting-edge products and techniques being used in the professional digital image capture market in a hands-on and seminar based forum.</h4>
+          <div style="text-align:center;padding-top:40px;">
+            <h2 style="letter-spacing:4px;font-weight:300;text-transform:uppercase;">Get inspired, informed and motivated!</h2>
+            <a href="#cities" class="btn btn-default">Learn More</a>
+          </div>
         </div>
       </div>
-      <div class="row" style="margin-top: 50px;border: 1px solid #cecece;padding:20px;">
+      <div class="row">
+        <div class="embed-container" style="margin-top:90px;">
+        <iframe src="https://player.vimeo.com/video/144815525?title=0&byline=0&portrait=0" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 90px;border: 0px solid #cecece;padding:0px;">
         <div class="col-xs-12 col-s-6">
-          <h6>SIGN UP NOW</h6>
-          <h1>Early Bird Special</h1>
+          <h5 style="font-weight:500;">SIGN UP NOW</h5>
+          <h1 style="font-weight:500;">Early Bird Special</h1>
         </div>
         <div class="col-xs-12 col-s-6">
-          <h4>Early Bird Admission Fee until Sept. 30th for $49! After Sept. 30, Admission Fee will be $69.</h4>
-          <p>*Admission fee may be used as a credit towards a purchase of $200 or more at the event. Some exclusions may apply. Must have event ticket and ID to be eligible.</p>
+          <h4 style="font-weight:500;">Early Bird Admission Fee until Sept. 30th for $49! After Sept. 30, Admission Fee will be $69.</h4>
+          <p style="font-weight:500;">      *Admission fee may be used as a credit towards a purchase on selected items the day of the event.  Must have event ticket and show ID to be eligible. Check out the specials page for more information.</p>
           <a href="#" class="btn btn-default">Register</a>
         </div>
       </div>
     </div>
   </div>
   <div class="row">
-    <div class="container-fluid content">
+    <div class="container-fluid content" id="cities">
       <div class="row">
-          {% include cities.html %}
-          <div class="col-xs-6 col-sm-4 event image-box" style="padding:0px;background-color:#727272; height: 250px;">
-              <div style="padding:15px;">
-                <a href="#" class="animsition-link">
-                  <h3 style="text-align:left;">Register Now</h3>
-                  <hr class="line-white" style="text-align:left; margin-left:-40px;" />
-                  <p style="text-align:left;position: absolute; bottom: 5px; left: 15px; right: 15px;color: #fff;">Early Bird Admission Fee until Sept. 30th for $49! After Sept. 30, Admission Fee will be $69. <br />
-                  <span class="small" style="color: #fff;font-weight: 300;font-size: 80%;">* Admission fee may be used as a credit towards a purchase of $200 or more at the event. Some exclusions may apply. Must have event ticket and ID to be eligible.</span></p>
-                </a>
-              </div>
-          </div>
-          <div>
-            {% include newsletter-signup.html %}
-    </div>
+        {% include cities.html %}
+        {% include newsletter-signup.html %}
+      </div>
   </div>
 </div>
