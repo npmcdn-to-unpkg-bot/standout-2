@@ -3,68 +3,49 @@ title: cities
 layout: home
 ---
 
-<div class="container-fluid" style="text-align:left;">
-  <div class="videoWrapper" style="width:100%;">
-  <video width="100%" height="auto">
-    <source src="{{ "/assets/stand-out-vid.mp4" | prepend: site.baseurl }}" type="video/mp4" />
-    Your browser doesn't support HTML5 video. Here's a <a href="#">link</a> to download the video.
+<div class="container-fluid" style="text-align:left;padding:0;">
+  <video autoplay>
+    <source src="{{ "/assets/stand-out-vid.mp4" | prepend: site.baseurl }}" type="video/mp4">
+    Your browser does not support the video tag.
   </video>
-  </div>
   <div class="row">
     <div class="container content">
       <div class="row">
-        <div class="col-xs-12 col-s-5">
-          <h2>Get inspired, informed and motivated!</h2>
-          <h1>Stand Out Photographic Forum</h1>
-          <h3>2016</h3>
-          <hr class="line-full">
+        <div class="col-xs-12 col-s-6">
+          <h2>You came, you were inspired, informed and motivated!</h2>
+          <h1 class="gradient">Get ready for Stand Out 2016</h1>
           <p>The Stand Out! Photographic Forums’ mission is to bring the photographic community together to inform, inspire and excite. Hear from innovative industry creatives and icons. Explore new ideas to differentiate yourself and your business. The Stand Out! event will also bring leading photographic brands under one roof to demonstrate their products to you in an intimate and meaningful manner. Put a face to the brand, meet some of the most knowledgeable resources in the industry. This event is ideal for professional photographers, photo assistants, advanced students or any imaging professional that would like to learn about the latest cutting-edge products and techniques being used in the professional digital image capture market in a hands-on and seminar based forum.</p>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 50px;border: 1px solid #cecece;padding:20px;">
+        <div class="col-xs-12 col-s-6">
+          <h6>SIGN UP NOW</h6>
+          <h1>Early Bird Special</h1>
+        </div>
+        <div class="col-xs-12 col-s-6">
+          <h4>Early Bird Admission Fee until Sept. 30th for $49! After Sept. 30, Admission Fee will be $69.</h4>
+          <p>*Admission fee may be used as a credit towards a purchase of $200 or more at the event. Some exclusions may apply. Must have event ticket and ID to be eligible.</p>
+          <a href="#" class="btn btn-default">Register</a>
         </div>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="container-fluid content">
-      <div class="row" style="padding-bottom:150px;">
-          {% for event in site.events %}
-          <div class="col-xs-6 col-sm-4 event image-box" style="padding:0px;">
-            <a href="{{ event.url }}" class="animsition-link">
-              <figure><img src="{{ event.image | prepend: site.baseurl }}"  style="height:250px;"/>
-              <div class="event-details" height="100px;">
-                {% if event.title %}
-                <h2>{{ event.title }}</h2>
-                {% endif %}
-                {% if event.event-date %}
-                <h5><a href="{{ event.url }}" class="animsition-link">{{ event.event-date }}</a></h5>
-                {% endif %}
-              </div>
-            </figure>
-          </a>
-          </div>
-          {% endfor %}
+      <div class="row">
+          {% include cities.html %}
           <div class="col-xs-6 col-sm-4 event image-box" style="padding:0px;background-color:#727272; height: 250px;">
               <div style="padding:15px;">
                 <a href="#" class="animsition-link">
                   <h3 style="text-align:left;">Register Now</h3>
-                  <hr class="line-small" style="text-align:left; margin-left:-40px;" />
+                  <hr class="line-white" style="text-align:left; margin-left:-40px;" />
                   <p style="text-align:left;position: absolute; bottom: 5px; left: 15px; right: 15px;color: #fff;">Early Bird Admission Fee until Sept. 30th for $49! After Sept. 30, Admission Fee will be $69. <br />
                   <span class="small" style="color: #fff;font-weight: 300;font-size: 80%;">* Admission fee may be used as a credit towards a purchase of $200 or more at the event. Some exclusions may apply. Must have event ticket and ID to be eligible.</span></p>
                 </a>
               </div>
           </div>
-      </div>
-    </div>
-  </div>
-  <div class="container" style="border: none; margin-bottom:60px;">
-    <div class="row" style="padding:50px;">
-      <div class="col-xs-12" style="text-align:center;">
-        <h5>SIGN UP NOW FOR OUR</h5>
-        <h2 style="font-weight:700;">Early Bird Special</h2>
-        <hr class="line-small"  style="color:#727272;"/>
-        <P>Early Bird Admission Fee until Sept. 30th for $49! After Sept. 30, Admission Fee will be $69.</p>
-        <p class="small">* Admission fee may be used as a credit towards a purchase of $200 or more at the event. Some exclusions may apply. Must have event ticket and ID to be eligible.</p>
-        <a class="btn-default btn" href="#">Register Now!</a>
-      </div>
+          <div>
+            {% include newsletter-signup.html %}
     </div>
   </div>
 </div>

@@ -15,22 +15,20 @@
         </div>
       </div>
       <div class="col-xs-12">
-        <div class="row">
           {% include header.html %}
-        </div>
         <div class="row">
-          <div class="container-fluid big-header" style="position:absolute"></div>
-          <div class="container-fluid page-content" id="main" style="position:relative;">
+          <div class="container big-header" style="position:absolute"></div>
+          <div class="container-fluid" id="main" style="position:relative;">
             <div class="row">
-              <div class="col-xs-11 col-xs-offset-1" style="margin-bottom:200px;">
+              <div class="col-xs-11 col-xs-offset-1" style="margin-bottom:50px;">
                 <div class="row">
                   <div class="col-xs-11 intro" >
-                      <h5>STAND OUT</h5>
-                      <h1 style="margin-top:0px;padding-top:0px;line-height:1;">{{ page.title }}</h1>
-                      <hr class="line-full-red">
+                      <h5 style="font-weight:300;">STAND OUT</h5>
+                      <h1 class="gradient" style="margin-top:0px;padding-top:0px;line-height:1;font-weight:400;">{{ page.title }}</h1>
+                      <hr class="line-full">
                       <div class="row">
                         <div class="col-xs-12 col-sm-5">
-                          <h2>{{ page.event-date }}</h2>
+                          <h2 style="font-weight:300;">{{ page.event-date }}</h2>
                         </div>
                         <div class="col-xs-12 col-sm-5">
                           <h4 class="padding-top:52px;"><a href="{{ page.location-link }}" class="animsition-link">{{ page.location-name }}</a></h4>
@@ -49,9 +47,9 @@
               <div class="row" id="speakers">
                 {% for speaker in site.speakers %}
                 {% if speaker.city contains page.title %}
-                  <div class="col-xs-6 col-sm-3 speaker">
+                  <div class="col-xs-6 col-sm-3 image-box">
+                    <a href="/speakers" class="animsition-link">
                     {% if speaker.headshot %}
-                    <a href="/speakers" id="speaker-image" class="image-box">
                     <figure><img src="{{ speaker.headshot }}"></figure>
                     {% endif %}
                     <div class="speaker-name">
@@ -125,34 +123,42 @@
                     <a href="#" class="animsition-link" class="animsition-link">Partner with Us!</a>
                   </div>
                 </div>
-                <hr class="line-full-red">
+                <hr class="line-full">
                 <div class="row sponsor">
-                  <ul>
                     {% for sponsor in site.sponsors %}
+                    <div class="col-xs-12 col-sm-4" style="margin-bottom:20px;">
                     {% if sponsor.city contains page.title %}
-                    <li class="col-xs-12 col-sm-2">
+                    <div class="col-xs-12 col-sm-12">
                       {% if sponsor.image %}
                       <a href="{{ sponsor.link | prepend: site.baseurl }}" class="animsition-link"><img src="{{ sponsor.image }}" /></a>
                       {% endif %}
-                    </li>
+                      {% if sponsor.title %}
+                      <h5>{{ sponsor.title }}</h5>
+                      {% endif %}
+                      {% if sponsor.desc %}
+                      <p>{{ sponsor.desc }}
+                      {% endif %}
+                    </div>
                     {% endif %}
+                    </div>
                     {% endfor %}
-                  </ul>
+                  </div>
+                </div>
+                <div class="container-fluid" style="margin-left:-10px;margin-right:-10px;">
+                  {% include newsletter-signup.html %}
                 </div>
               </div>
             </div>
           </div>
 
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-      </div>
-    <div class="row">
-    {% include footer.html %}
+    <div class="row" style="margin-left:-10px;margin-right:-10px;">
+  {% include footer.html %}
   </div>
 </div>
 </body>
-
 {% include js.html %}
-
 </html>

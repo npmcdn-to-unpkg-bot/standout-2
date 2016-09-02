@@ -9,7 +9,6 @@
   z-index: 500;
   position: relative;
   margin-top:120px;
-  margin-bottom:20px;
 }
 
 
@@ -23,7 +22,7 @@ footer {
   position: absolute;
   width: 100%;
   color: white;
-  padding: 10px 0px;
+  padding: 0px;
   float: right;
   text-align:right;
 
@@ -45,7 +44,7 @@ footer {
 
 .photo-array h1 {
   font-size:500%;
-  font-weight: 600;
+  font-weight: 300;
   color:white;
 }
 
@@ -102,7 +101,7 @@ footer {
   .heading-big {
       font-size: 4em;
       letter-spacing: 16px;
-      font-weight: 700;
+      font-weight: 300;
   }
 
 
@@ -140,7 +139,7 @@ footer {
   .speaker-name a {
     color: #fff;
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 300;
   }
 
   .speaker-social {
@@ -167,15 +166,15 @@ i {
     }
 
     .seminar a {
-      color: red;
+      color: #727272;
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 300;
     }
 
         .seminar a:hover {
           color: #888;
           text-decoration: none;
-          font-weight: 500;
+          font-weight: 300;
         }
 
     .seminar img {
@@ -199,30 +198,22 @@ i {
   margin-top: 10px;
   margin-bottom: 16px;
   border: 0;
-  border-top: 2px dotted #9af6ff;
+  border-top: 1px solid #727272;
 }
-
-.line-small {
-  width: 100px;
-  margin-top: 10px;
-  margin-bottom: 16px;
-  border: 0;
-  border-top: 2px dotted red;
-}
-
 
 .line-full {
-  margin-top: 10px;
-  margin-bottom: 16px;
-  border: 0;
-  border-top: 2px dotted #9af6ff;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border: 0;
+    border-top: 1px solid #ececec;
 }
 
-.line-full-red {
+.line-white {
   margin-top: 10px;
   margin-bottom: 16px;
   border: 0;
-  border-top: 2px dotted red;
+  width: 100px;
+  border-top: 1px solid #fff;
 }
 
 
@@ -251,12 +242,16 @@ i {
 .sidebar {
     background-color: #cecece;
     min-width: 90px;
-    padding: 10px;
+    padding: 0px;
     display:inline-block;
+    margin-top:5px;
   }
 
 .sidebar a {
   color: white;
+font-size: 1.3em;
+font-weight: 300;
+letter-spacing: 2px;
 }
 
 
@@ -269,7 +264,7 @@ i {
 
 .event-details h2 {
       text-transform: none;
-      font-weight: 800;
+      font-weight: 300;
     }
 
 .event-details {
@@ -292,7 +287,8 @@ transition: .3s ease-in-out;
   }
 
   .image-box figure:hover a {
-    color: #9af6ff;
+    color: #727272;
+    padding-bottom: 10px;
   }
 
 
@@ -301,17 +297,20 @@ transition: .3s ease-in-out;
     filter: blur(0) opacity(1);
   	-webkit-transition: .3s ease-in-out;
   	transition: .3s ease-in-out;
+    width: 100%;
   }
   .image-box figure:hover img {
-    -webkit-filter: blur(0.5px) opacity(0.6);
-  	filter: blur(0.5px) opacity(0.6);
+    -webkit-filter: blur(0.3px) opacity(0.3);
+  	filter: blur(0.3px) opacity(0.3);
   }
 
 
 .image-box {
     position: relative;
-    height: 250px;
-    text-align: center;
+height: auto;
+text-align: center;
+margin: 0px;
+padding: 0px;
 }
 
 
@@ -484,3 +483,29 @@ h3 {
       color: transparent;
     }
   }
+
+
+.gradient {
+      background-image: linear-gradient(to bottom, #fefefe(10%), #727272);
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+
+      a {
+        color: transparent;
+      }
+    }
+
+
+.newsletter-signup {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: #cecece;
+  /* border: none; */
+
+  h2 {
+    color: white;
+font-weight: 300;
+  }
+}
