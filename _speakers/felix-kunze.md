@@ -14,9 +14,10 @@ bio: 'Felix Kunze is a German-born, British-raised, New York-based commercial an
   of portrait photogrpahers around the world through his class, The Portrait Lighting
   Challenge: Studio vs Natural with Felix Kunze and Sue Bryce.'
 layout: speaker
-website-url:
+website-url: 
 facebook-url: facebook.com/
-instagram-url:
-twitter-url:
-youtube-url:
+instagram-url: 
+twitter-url: 
+youtube-url: 
 ---
+

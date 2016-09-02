@@ -27,3 +27,4 @@ bio: Joseph Cartright has been an Artist, Technologist and a Creative Vanguard f
   Spiegel’s, Apple Computers, HP, Fashion Institute of Technology.
 layout: speaker
 ---
+

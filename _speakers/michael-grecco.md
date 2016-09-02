@@ -24,9 +24,10 @@ bio: I go out every day with the intention of breaking visual rules and creating
   the rights of photographers and helping protect the interests of image creators.
   Michael Grecco is based in Los Angeles.
 layout: speaker
-website-url:
-facebook-url:
-instagram-url:
-twitter-url:
-youtube-url:
+website-url: 
+facebook-url: 
+instagram-url: 
+twitter-url: 
+youtube-url: 
 ---
+

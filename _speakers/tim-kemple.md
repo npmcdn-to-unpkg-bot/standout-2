@@ -29,3 +29,4 @@ bio: 'Tim Kemple is a photographer and motion director who''s striking photograp
 layout: speaker
 instagram-url: http://instagram.com/timkemple
 ---
+
