@@ -4,7 +4,7 @@ date: 2016-08-08 12:36:52 Z
 permalink: "/chicago"
 event-date: Wednesday, October 26, 2016
 collection: events
-image: "/img/chicago333x250.jpg"
+image: "/img/chicago.jpg"
 featured-image: http://placehold.it/800x300
 reg-link: http://google.com
 layout: event

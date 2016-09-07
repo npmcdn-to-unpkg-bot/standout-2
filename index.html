@@ -33,9 +33,9 @@ layout: home
     </div>
   </div>
   <div class="container">
-    <div class="embed-container reveal" style="margin-top:90px;">
-      <iframe src="https://player.vimeo.com/video/144815525?title=0&byline=0&portrait=0" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    </div>
+    <video>
+      <source src="{{ 'assets/StandOut-Trailer-v2.mp4' | prepend: site.baseurl }}" type="video/mp4">
+    </video>
   </div>
   {% include early-bird.html %}
   <div class="row">
@@ -51,3 +51,17 @@ layout: home
   </div>
   </div>
 </div>
+
+
+
+<script>
+$(function() {
+  $("video.embed-container").each(function() {
+    var sourceFile = $(this).attr("data-src");
+    $(this).attr("src", sourceFile)
+    var video = this.parentElement;
+    video.load();
+    video.play();
+  });
+})
+</script

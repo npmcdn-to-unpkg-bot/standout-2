@@ -46,17 +46,17 @@
             </div>
             <div class="row">
             <div class="col-xs-10 col-xs-offset-1">
-              <div class="row" id="sponsors">
-                {% for sponsor in site.sponsors %}
-                {% if sponsor.city contains page.title %}
-                  <div class="col-xs-6 col-sm-3 sponsor">
-                    {% if sponsor.headshot %}
-                    <a href="/sponsors" id="sponsor-image" class="image-box">
-                    <figure><img src="{{ sponsor.headshot }}"></figure>
+              <div class="row" id="speakers">
+                {% for speaker in site.speakers %}
+                {% if speaker.city contains page.title %}
+                  <div class="col-xs-6 col-sm-3 speaker">
+                    {% if speaker.headshot %}
+                    <a href="/speakers" id="speakers" class="image-box">
+                    <figure><img src="{{ speaker.headshot }}"></figure>
                     {% endif %}
-                    <div class="sponsor-name">
-                      {% if sponsor.title %}
-                      <h4><a href="/sponsors" class="animsition-link">{{ sponsor.title }}</a></h4>
+                    <div class="speaker-name">
+                      {% if speaker.title %}
+                      <h4><a href="/speakers" class="animsition-link">{{ speaker.title }}</a></h4>
                       {% endif %}
                     </div>
                     </a>
@@ -74,7 +74,7 @@
                     {% if seminar.cities contains page.title %}
                     {% if seminar.type contains "seminar" %}
                     <li class="col-xs-12 col-sm-4 seminar" style="margin:0; padding-left:0;">
-                      <div class="seminar-details" style="height:700px; overflow:hidden; padding-bottom:20px;">
+                      <div class="seminar-details" style="height:500px; overflow:hidden; padding-bottom:20px;">
                         {% if seminar.image %}
                         <div class="image-box">
                         <figure><img src="{{ seminar.image | prepend: site.baseurl }}" /></figure>
@@ -99,6 +99,7 @@
             </div>
           </div>
             <div class="col-xs-11 col-xs-offset-1 col-sm-10 col-sm-offset-1 schedule" style="margin-top:30px;" id="schedule">
+              <h5>SCHEDULE</h5>
               <div class="row">
                 <div class="col-xs-2"><h6>TIME</h6></div>
                 <div class="col-xs-6"><h6>SEMINAR</h6></div>
@@ -134,7 +135,7 @@
                     {% if sponsor.city contains page.title %}
                     <li class="col-xs-12 col-sm-6" style="height:350px;margin-top:20px;">
                       {% if sponsor.image %}
-                      <a href="{{ sponsor.link }}" class="animsition-link"><img src="{{ sponsor.image | prepend:site.baseurl }}" style="max-height:90px;margin-top:8px;margin-bottom:8px;" /></a>
+                      <a href="{{ sponsor.link }}" class="animsition-link"><img src="{{ sponsor.image | prepend:site.baseurl }}" style="margin-top: 8px; margin-bottom: 16px; height: 80px; width: auto;" /></a>
                       {% endif %}
                       {% if sponsor.desc %}
                       <p class="small">{{ sponsor.desc }}</p>
