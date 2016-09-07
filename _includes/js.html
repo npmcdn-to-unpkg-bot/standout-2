@@ -3,6 +3,7 @@
 <script src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/misc.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/bower_components/jquery-background-video/jquery.background-video.js" | prepend: site.baseurl }}"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
 <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
 <script src="https://use.typekit.net/djc3asi.js"></script>
@@ -55,4 +56,9 @@ $(function() {
 <script>
 window.sr = ScrollReveal();
 sr.reveal('.reveal', { easing: 'ease-in-out'});
+</script>
+
+/* Note Codepen is importing the jQuery Background Video plugin - https://github.com/BGStock/jquery-background-video */
+<script>
+$('.jquery-background-video').bgVideo({fadeIn: 2000});
 </script>

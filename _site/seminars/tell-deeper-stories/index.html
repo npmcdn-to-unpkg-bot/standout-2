@@ -16,96 +16,53 @@
 
 
 <body class="ansimition">
-  <div class="container-fluid"> 
+  <div class="container-fluid">
+    <div class="row">
       <div class="col-xs-12">
         <div class="row">
-          <nav class="navbar" id="header">
-  <div class="container-fluid navbar-fixed-top">
-    <div class="row">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+          <nav class="navbar container-fluid" id="header">
+  <div class="col-xs-10">
+    <div class="navbar-fixed-top">
+      <div class="navbar-header col-xs-12">
+        <a class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">MENU</a>
       </div>
       <div class="collapse navbar-collapse container" id="bs-example-navbar-collapse-1">
         <div class="row">
-          <div class="col-xs-12">
-            <ul class="nav navbar-nav row">
-              
-              
+          <div class="col-xs-12 col-sm-10"  style="margin-left: auto;margin-right: auto;float: none;">
+            <div class="row">
+              <ul class="nav navbar-nav row">
+                <li>
+                  <a href=""><i class="fa fa-camera"></i></a>
+                </li>
               <li>
-                <a class="navbar-nav" href="/contact.html" >Contact</a>
+                <a href="" >Events</a>
               </li>
-              
-              
-              
-              
-              
               <li>
-                <a class="navbar-nav" href="/get-inspired/" >Get Inspired</a>
+                <a href="" >Speakers</a>
               </li>
-              
-              
-              
               <li>
-                <a class="navbar-nav" href="/" >Events</a>
+                <a href="" >Sponsors</a>
               </li>
-              
-              
-              
-              
-              
               <li>
-                <a class="navbar-nav" href="/register.html" >Register</a>
+                <a href="" >Specials</a>
               </li>
-              
-              
-              
               <li>
-                <a class="navbar-nav" href="/speakers" >speakers</a>
+                <a href="" >Get Inspired</a>
               </li>
-              
-              
-            </ul>
+              <li>
+                <a href="" >Contact</a>
+              </li>
+              <li>
+                <a href=""><i class="fa fa-ticket"></i></a>
+              </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </nav>
-
-
-<!--<div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
-  <button class="menu-icon" type="button" data-toggle></button>
-  <div class="title-bar-title">Menu</div>
-</div>
-
-<div class="top-bar" id="main-nav">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li class="menu-text">Site Title</li>
-      <li>
-        <a href="#">One</a>
-        <ul class="menu vertical">
-          <li><a href="#">One</a></li>
-          <li><a href="#">Two</a></li>
-          <li><a href="#">Three</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Two</a></li>
-      <li><a href="#">Three</a></li>
-    </ul>
-  </div>
-  <div class="top-bar-right">
-    <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
-      <li><button type="button" class="button">Search</button></li>
-    </ul>
-  </div>
-</div>-->
 
         </div>
         <div class="row">
@@ -241,11 +198,8 @@
         </div>
 
         </div>
-      </div>
-    </div>
-      </div>
-    <div class="row">
-    <footer id="footer">
+        <div class="row">
+          <footer id="footer">
   <div class="container-fluid inside">
         <div class="col-xs-12 speaker-social">
           <a href="https://instagram.com/standoutphotoforum"><i class="fa fa-instagram fa-lg"></i></a>
@@ -255,8 +209,10 @@
     </div>
 </footer>
 
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 </body>
 
 <!-- jQuery Version 1.12.2 -->
@@ -264,6 +220,7 @@
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.js"></script>
 <script src="/js/misc.js"></script>
+<script src="/bower_components/jquery-background-video/jquery.background-video.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"></script>
 <script src="https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js"></script>
 <script src="https://use.typekit.net/djc3asi.js"></script>
@@ -316,6 +273,11 @@ $(function() {
 <script>
 window.sr = ScrollReveal();
 sr.reveal('.reveal', { easing: 'ease-in-out'});
+</script>
+
+/* Note Codepen is importing the jQuery Background Video plugin - https://github.com/BGStock/jquery-background-video */
+<script>
+$('.jquery-background-video').bgVideo({fadeIn: 2000});
 </script>
 
 

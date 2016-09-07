@@ -4,7 +4,8 @@
   {% include head.html %}
 
 <body class="ansimition">
-  <div class="container-fluid"> 
+  <div class="container-fluid">
+    <div class="row">
       <div class="col-xs-12">
         <div class="row">
           {% include header.html %}
@@ -12,13 +13,12 @@
         <div class="row">
           {{ content }}
         </div>
+        <div class="row">
+          {% include footer.html %}
+        </div>
       </div>
     </div>
-      </div>
-    <div class="row">
-    {% include footer.html %}
   </div>
-</div>
 </body>
 
 {% include js.html %}

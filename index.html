@@ -3,43 +3,51 @@ title: Events
 layout: home
 ---
 
+<!-- Start video hero -->
+<div class="video-hero jquery-background-video-wrapper demo-video-wrapper" style="margin-bottom:100px;">
+  <video class="jquery-background-video" autoplay muted loop poster="{{ '/img/so-5.png' | prepend: site.baseurl }}">
+    <source src="{{ 'assets/StandOut-Trailer-v2.mp4' | prepend: site.baseurl }}" type="video/mp4">
+  </video>
+	  <div class="video-overlay"></div>
+  	<div class="page-width">
+		    <div class="video-hero--content">
+          <img src="{{ '/img/Stand-out-icon-transwhite.png' | prepend: site.baseurl }}" style="max-width:400px">
+    		</div>
+  	</div>
+</div>
+<!-- End video hero -->
+
 <div class="container-fluid" style="text-align:left;padding:0;">
-  <div style="max-height:550px; overflow: hidden;">
-    <video autoplay>
-      <source src="{{ "/assets/StandOut-Trailer-v2.mp4" | prepend: site.baseurl }}" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-    <div style="col-xs-8 col-sm-6">
-    <img class="hero" src="{{ "/img/Stand-out-icon-transwhite.png" | prepend: site.baseurl }}" style="max-width:700px">
-  </div>
-  </div>
-  <div class="row">
-    <div class="container content">
-      <div class="row">
-        <div class="col-xs-12 col-s-6">
-          <h1 class="gradient reveal">What is STAND OUT?</h1>
-          <p style="font-size: 1.4em; font-weight:300;padding-top:20px;" class="reveal">The STAND OUT Photographic Forums brings the photographic community together to inform, inspire and excite. Hear from innovative industry creatives and icons. Explore new ideas to differentiate yourself and your business.</h4>
-          <p style="font-size: 1.4em; font-weight:300;padding-top:20px;" class="reveal">The STAND OUT event will also bring leading photographic brands under one roof to demonstrate their products to you in an intimate and meaningful manner. Put a face to the brand, meet some of the most knowledgeable resources in the industry.</h4>
-          <p style="font-size: 1.4em; font-weight:300;padding-top:20px;" class="reveal">This event is ideal for professional photographers, photo assistants, advanced students or any imaging professional that would like to learn about the latest cutting-edge products and techniques being used in the professional digital image capture market in a hands-on and seminar based forum.</h4>
-          <div style="text-align:center;padding-top:40px;">
-            <h2 style="letter-spacing:4px;font-weight:300;text-transform:uppercase;">Get inspired, informed and motivated!</h2>
-            <a href="#cities" class="btn btn-default reveal">Learn More</a>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-s-6">
+        <h1 class="reveal">What is STAND OUT?</h1>
+        <p style="font-size: 1.4em; font-weight:300;padding-top:20px;" class="reveal">The STAND OUT Photographic Forums brings the photographic community together to inform, inspire and excite. Hear from innovative industry creatives and icons. Explore new ideas to differentiate yourself and your business.</h4>
+        <p style="font-size: 1.4em; font-weight:300;padding-top:20px;" class="reveal">The STAND OUT event will also bring leading photographic brands under one roof to demonstrate their products to you in an intimate and meaningful manner. Put a face to the brand, meet some of the most knowledgeable resources in the industry.</h4>
+        <p style="font-size: 1.4em; font-weight:300;padding-top:20px;" class="reveal">This event is ideal for professional photographers, photo assistants, advanced students or any imaging professional that would like to learn about the latest cutting-edge products and techniques being used in the professional digital image capture market in a hands-on and seminar based forum.</h4>
+        <div style="text-align:center;padding-top:40px;">
+          <h2 style="letter-spacing:4px;font-weight:300;text-transform:uppercase;">Get inspired, informed and motivated!</h2>
+          <a href="#cities" class="btn btn-default reveal">Buy Ticket</a>
         </div>
       </div>
-      <div class="row">
-        <div class="embed-container reveal" style="margin-top:90px;">
-        <iframe src="https://player.vimeo.com/video/144815525?title=0&byline=0&portrait=0" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-        </div>
-      </div>
-      {% include early-bird.html %}
     </div>
   </div>
+  <div class="container">
+    <div class="embed-container reveal" style="margin-top:90px;">
+      <iframe src="https://player.vimeo.com/video/144815525?title=0&byline=0&portrait=0" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </div>
+  </div>
+  {% include early-bird.html %}
   <div class="row">
     <div class="container-fluid content" id="cities">
       <div class="row">
         {% include cities.html %}
-        {% include newsletter-signup.html %}
       </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+    {% include newsletter-signup.html %}
+  </div>
   </div>
 </div>

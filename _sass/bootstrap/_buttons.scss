@@ -170,24 +170,15 @@ input[type="button"] {
 }
 
 .btn-newsletter-signup {
-display: inline-block;
-margin-top: 0px;
-margin-bottom: 0;
-font-weight: normal;
-/* padding: 10px 12px; */
-text-align: center;
-vertical-align: middle;
-touch-action: manipulation;
-cursor: pointer;
-background-image: none;
-border: 0px solid transparent;
-white-space: nowrap;
-/* padding: 5px 30px; */
-font-size: 14px;
-line-height: 1;
-border-radius: 0px;
-width: 100%;
-padding: 1px;
+margin-top:0px;
+margin-left: 5px;
+padding: 9px 18px;
+background-color: #727272;
+letter-spacing: 3px;
+text-transform: uppercase;
+font-weight: 300;
+font-size: 0.8em;
+  color: #fff;
 }
 
 
