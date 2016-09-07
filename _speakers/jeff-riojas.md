@@ -3,7 +3,7 @@ title: Jeff Riojas
 date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: Los Angeles, Chicago, Dallas
-headshot:
+headshot: 
 featured-image: 
 bio: Jeff Rojas is an American Photographer and author based in New York City. His
   primary body of work includes portrait and fashion photography that has been published
@@ -17,3 +17,4 @@ instagram-url: http://instagram.com/SAJORFFEJ
 twitter-url: www.twitter.com/SAJORFFEJ
 youtube-url: YouTube.com/SAJORFFEJ
 ---
+

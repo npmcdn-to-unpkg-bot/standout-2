@@ -17,3 +17,4 @@ desc: Becoming a photographer isn't as easy as buying a camera and following a f
   doing exactly what you dreamed.
 type: seminar
 ---
+
