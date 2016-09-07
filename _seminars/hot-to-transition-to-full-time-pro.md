@@ -5,7 +5,7 @@ collection: seminars
 time: 10:00 - 10:45
 cities: Phoenix
 speaker: Jaron Schneider
-image: http://placehold.it/500x500
+image: 
 layout: speaker
 desc: Becoming a photographer isn't as easy as buying a camera and following a few
   tutorials, unfortunately there is a lot more you have to consider before quitting
@@ -17,4 +17,3 @@ desc: Becoming a photographer isn't as easy as buying a camera and following a f
   doing exactly what you dreamed.
 type: seminar
 ---
-
