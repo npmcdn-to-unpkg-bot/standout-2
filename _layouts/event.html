@@ -49,7 +49,7 @@
               <div class="row" id="speakers">
                 {% for speaker in site.speakers %}
                 {% if speaker.city contains page.title %}
-                  <div class="col-xs-6 col-sm-3 speaker">
+                  <div class="col-xs-12 col-sm-4 speaker">
                     {% if speaker.headshot %}
                     <a href="/speakers" id="speakers" class="image-box">
                     <figure><img src={{ speaker.headshot | prepend: site.baseurl }}></figure>
@@ -75,14 +75,14 @@
                     {% if seminar.type contains "seminar" %}
                     <li class="col-xs-12 seminar" style="margin:0; padding-left:0">
                     <div class="row">
-                      <div class="col-xs-12 col-sm-2">
+                      <div class="col-xs-12 col-sm-4">
                           {% if seminar.image %}
                           <div class="image-box">
                             <figure><img src="{{ seminar.image | prepend: site.baseurl }}" /></figure>
                           </div>
                         {% endif %}
                       </div>
-                      <div class="col-xs-12 col-sm-10">
+                      <div class="col-xs-12 col-sm-8">
                         <div class="seminar-details">
                         {% if seminar.title %}
                         <h4>{{ seminar.title }}</a></h4>
@@ -139,10 +139,14 @@
                   <ul>
                     {% for sponsor in site.sponsors %}
                     {% if sponsor.city contains page.title %}
-                    <li class="col-xs-12 col-sm-6" style="height:350px;margin-top:20px;">
+                    <li class="col-xs-12" style="height:350px;margin-top:20px;">
+                      <div class="row">
+                        <div class="col-xs-2">
                       {% if sponsor.image %}
                       <a href="{{ sponsor.link }}" class="animsition-link"><img src="{{ sponsor.image | prepend:site.baseurl }}" style="margin-top: 8px; margin-bottom: 16px; height: 80px; width: auto;" /></a>
                       {% endif %}
+                    </div>
+                    <div class="col-xs-10">
                       {% if sponsor.desc %}
                       <p class="small">{{ sponsor.desc }}</p>
                       {% endif %}
@@ -156,6 +160,8 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
                     </li>
                     {% endif %}
                     {% endfor %}
