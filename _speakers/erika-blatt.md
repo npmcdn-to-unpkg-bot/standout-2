@@ -4,7 +4,7 @@ date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: Chicago, Los Angeles, Phoenix, Dallas, Toronto
 headshot: "/img/erika-blatt.jpg"
-featured-image: http://placehold.it/800x500
+featured-image: 
 bio: Erika is a marketing consultant at Wonderful Machine, a production company in
   suburban Philadelphia. She works closely with photographers to connect them with
   clients such as Conde Naste, DDB, Purpose and TBWA Worldwide. Prior to jumping on
@@ -24,4 +24,3 @@ instagram-url: https://www.instagram.com/erikablatt/
 twitter-url: https://twitter.com/Erikablatt
 website-url: www.wonderfulmachine.com
 ---
-

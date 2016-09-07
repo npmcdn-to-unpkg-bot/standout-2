@@ -3,8 +3,8 @@ title: Clay Cook
 date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: Los Angeles, Chicago, Dallas
-headshot: http://placehold.it/300x300
-featured-image: http://placehold.it/300x300
+headshot: 
+featured-image:
 bio: 'Every photograph begins with an idea. The job of a photographer is to not only
   capture the vision, but manipulate it into art, bigger than life and beyond any
   initial expectations. Photographer, Clay Cook, has learned the importance of going
@@ -23,4 +23,3 @@ facebook-url: facebook.com/claycookphoto
 instagram-url: http://instagram.com/claycookphoto
 twitter-url: www.twitter.com/claycookphoto
 ---
-

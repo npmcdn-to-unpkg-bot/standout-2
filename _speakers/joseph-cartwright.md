@@ -4,7 +4,7 @@ date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: Los Angeles
 headshot: "/img/joseph-cartwright.jpg"
-featured-image: http://placehold.it/300x300
+featured-image: 
 bio: Joseph Cartright has been an Artist, Technologist and a Creative Vanguard for
   over 20 years. Joseph’s diverse talents in what were once considered disconnected
   creative disciplines, techniques and technologies are today the building blocks
@@ -27,4 +27,3 @@ bio: Joseph Cartright has been an Artist, Technologist and a Creative Vanguard f
   Spiegel’s, Apple Computers, HP, Fashion Institute of Technology.
 layout: speaker
 ---
-
