@@ -2,7 +2,7 @@
 title: Make a Million with © Registration
 date: 2016-08-08 12:36:52 Z
 collection: seminars
-time: 2:45 - 3:00
+time: 2:35 - 3:20
 cities: Los Angeles
 speaker: Michael Grecco
 image: "/img/Copy-of-XFiles.jpg"
@@ -16,4 +16,3 @@ desc: 'Have you ever seen your work used on the Internet without your permission
   work and make a living in photography is through copyright registration.'
 type: seminar
 ---
-

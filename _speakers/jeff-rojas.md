@@ -1,10 +1,10 @@
 ---
-title: Jeff Riojas
+title: Jeff Rojas
 date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: Los Angeles, Chicago, Dallas
-headshot: 
-featured-image: 
+headshot: "img/Copy-of-ACS22193-Edit-2.jpg"
+featured-image: "/img/workJeff.jpg"
 bio: Jeff Rojas is an American Photographer and author based in New York City. His
   primary body of work includes portrait and fashion photography that has been published
   in both Elle and Esquire. Jeff also frequents as a photography instructor. His teaching
@@ -17,4 +17,3 @@ instagram-url: http://instagram.com/SAJORFFEJ
 twitter-url: www.twitter.com/SAJORFFEJ
 youtube-url: YouTube.com/SAJORFFEJ
 ---
-

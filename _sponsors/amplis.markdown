@@ -2,15 +2,15 @@
 title: Amplis
 date: 2016-08-08 12:36:52 Z
 collection: sponsors
-city: Toronto
+city: Chicago, Los Angeles
 image: "/img/amplis_logo.jpg"
 link: http://www.amplis.com/
-facebook-url: 
+facebook-url:
 twitter-url: https://twitter.com/AmplisFoto
-instagram-url: 
-youtube-url: 
-desc: Founded in 1983 by Hans Ohlig, Amplis is a family-owned marketing and distribution
-  company in the imaging, consumer electronics, outdoor and fine art spaces in Canada.Amplis
+instagram-url:
+youtube-url:
+desc: "Founded in 1983 by Hans Ohlig, Amplis is a family-owned marketing and distribution
+  company in the imaging, consumer electronics, outdoor and fine art spaces in Canada. Amplis
   drives consumer demand through our unique position of publishing Canada’s largest
   imaging enthusiast magazine, PHOTONews. With quarterly print issues in excess of
   100,000 copies and regular eNews updates to 20,000 subscribers, Amplis can build
@@ -23,7 +23,6 @@ desc: Founded in 1983 by Hans Ohlig, Amplis is a family-owned marketing and dist
   Shopatron engine. Amplis exhibits at major Canadian retail and trade shows to showcase
   the products. In-store demo days, lectures at technical schools and colleges as
   well as sponsorship of industry leaders are also key components in Amplis’ marketing
-  toolbox.
+  toolbox."
 contact-email: info@amplis.com
 ---
-

@@ -1,8 +1,8 @@
 ---
-title: Clay Cook
+title: Jaron Schneider
 date: 2016-08-08 12:36:52 Z
 collection: speakers
-city: Los Angeles, Chicago, Dallas
+city: Phoenix
 headshot: "/img/jaron-schneider.jpg"
 featured-image: http://placehold.it/300x300
 bio: 'Jaron Schneider is the Editor in Chief of ResourceMagOnline, the Tech Editor
@@ -19,4 +19,3 @@ facebook-url: facebook.com/schneiderproductions
 instagram-url: http://instagram.com/jaronschneider
 twitter-url: www.twitter.com/jaronschneider
 ---
-

@@ -5,7 +5,7 @@ collection: speakers
 city: Los Angeles
 headshot: "/img/michael-grecco.jpg"
 featured-image: "/img/Copy-of-XFiles.jpg"
-bio: I go out every day with the intention of breaking visual rules and creating evocative,
+bio: "I go out every day with the intention of breaking visual rules and creating evocative,
   cinematic images that inspire. – Michael Grecco, Michael Grecco is an award winning
   and internationally renowned photographer of celebrity portraits, advertising and
   editorial commissions, private collections, and fine art. One of the most respected
@@ -22,12 +22,11 @@ bio: I go out every day with the intention of breaking visual rules and creating
   an emotion. A reaction.” Grecco serves as the chair of the Advocacy Committee for
   APA National. He plays an important roll in serving the industry by fighting for
   the rights of photographers and helping protect the interests of image creators.
-  Michael Grecco is based in Los Angeles.
+  Michael Grecco is based in Los Angeles."
 layout: speaker
-website-url: 
-facebook-url: 
-instagram-url: 
-twitter-url: 
-youtube-url: 
+website-url:
+facebook-url:
+instagram-url:
+twitter-url:
+youtube-url:
 ---
-

@@ -3,8 +3,8 @@ title: Bella Kotak
 date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: Los Angeles, Chicago, Dallas
-headshot: 
-featured-image: 
+headshot: "/img/STANDOUTbellakotak.jpg"
+featured-image: "/img/"
 bio: Bio Bio
 layout: speaker
 website-url: www.bellakotak.com
@@ -13,4 +13,3 @@ youtube-url: www.youtube.com/c/bellakotak
 instagram-url: http://instagram.com/bellakotak
 twitter-url: www.twitter.com/bellakotak
 ---
-

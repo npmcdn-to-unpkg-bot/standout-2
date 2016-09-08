@@ -2,7 +2,7 @@
 title: Tim Kemple
 date: 2016-08-08 12:36:52 Z
 collection: speakers
-city: Los Angeles, Toronto
+city: Los Angeles, Toronto, Phoenix
 headshot: "/img/kemplee.jpg"
 featured-image: "/img/Copy-of-TK_image.jpg"
 bio: 'Tim Kemple is a photographer and motion director who''s striking photography
@@ -29,4 +29,3 @@ bio: 'Tim Kemple is a photographer and motion director who''s striking photograp
 layout: speaker
 instagram-url: http://instagram.com/timkemple
 ---
-

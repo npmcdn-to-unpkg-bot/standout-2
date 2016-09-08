@@ -7,10 +7,9 @@ cities: Phoenix
 speaker: Felix Kunze, Paul Warner
 image: "/img/felix-kunze.jpg"
 layout: speaker
-desc: Felix will be demonstrating the complete workflow, from where he finds his inspiration
+desc: "Felix will be demonstrating the complete workflow, from where he finds his inspiration
   to final product, including a live shoot demonstration, lighting & posing tips,
   tethering into Capture One, doing live color work and post production. Theentire
-  product - from start to finish.
+  product - from start to finish."
 type: seminar
 ---
-

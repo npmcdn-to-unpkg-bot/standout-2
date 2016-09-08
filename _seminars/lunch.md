@@ -5,8 +5,7 @@ collection: seminars
 time: 12:00 - 12:45
 cities: Los Angeles, Chicago, Dallas, Phoenix, Toronto
 speaker: None
-image: http://placehold.it/500x500
+image: 
 layout: speaker
 type: other
 ---
-
