@@ -7,10 +7,11 @@ cities: Los Angeles
 speaker: Felix Kunze
 image: "/img/felix-kunze.jpg"
 layout: speaker
-desc: 'Felix Kunze will show you the exact proven method with which you can get noticed
-in your field and get paid work. He will run you through an inspiring journey after
-which you will have a clear idea of your next steps. No matter if you’re in fashion,
-portrait, product photography or just taking pictures of your kids, the same
-principles apply.'
+desc: Felix Kunze will show you the exact proven method with which you can get noticed
+  in your field and get paid work. He will run you through an inspiring journey after
+  which you will have a clear idea of your next steps. No matter if you’re in fashion,
+  portrait, product photography or just taking pictures of your kids, the same principles
+  apply.
 type: seminar
 ---
+

@@ -5,7 +5,8 @@ collection: seminars
 time: 2:15 - 2:30
 cities: Chicago, Toronto, LA
 speaker: None
-image:
+image: 
 layout: speaker
 type: other
 ---
+

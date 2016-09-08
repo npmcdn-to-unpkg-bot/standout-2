@@ -16,3 +16,4 @@ desc: I’ll take you through the world of commercial and editorial retouching. 
   all the way to the invoicing. We’ll get to see the tools of the trade as a retoucher,
   including equipment and Wacom graphic tablets that are needed as a retoucher.
 ---
+

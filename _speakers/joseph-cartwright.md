@@ -4,8 +4,8 @@ date: 2016-08-08 12:36:52 Z
 collection: speakers
 city: Toronto
 headshot: "/img/joseph-cartwright.jpg"
-featured-image:
-bio: "Joseph Cartright has been an Artist, Technologist and a Creative Vanguard for
+featured-image: 
+bio: Joseph Cartright has been an Artist, Technologist and a Creative Vanguard for
   over 20 years. Joseph’s diverse talents in what were once considered disconnected
   creative disciplines, techniques and technologies are today the building blocks
   of the creative process. As a DJ, Joseph has spun at some of NYC’s best clubs –
@@ -24,6 +24,7 @@ bio: "Joseph Cartright has been an Artist, Technologist and a Creative Vanguard 
   Professor at Parsons MFA Design program. Joseph has created and taught artist based
   educational programs and lectured for Apple Computers, Microsoft, Phase One, HP,
   Xrite and Adobe. As a Creative and Technical consultant, Joseph has consulted for
-  Spiegel’s, Apple Computers, HP, Fashion Institute of Technology."
+  Spiegel’s, Apple Computers, HP, Fashion Institute of Technology.
 layout: speaker
 ---
+

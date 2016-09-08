@@ -5,7 +5,8 @@ collection: seminars
 time: 2:30 - 2:45
 cities: Dallas, Phoenix
 speaker: None
-image:
+image: 
 layout: speaker
 type: other
 ---
+

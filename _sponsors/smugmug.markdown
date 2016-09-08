@@ -9,7 +9,11 @@ facebook-url: https://www.facebook.com/SmugMug
 twitter-url: https://twitter.com/smugmug
 instagram-url: https://www.instagram.com/smugmug/
 youtube-url: https://www.youtube.com/c/smugmug
-desc: "Photos are a reflection of your experiences—what drives you, where you’ve been, where you’re going, who you love. SmugMug is a safe, beautiful home for all of it—your journey and your photos. Protect your photos and memories with a SmugMug site and give them a place to shine."
+desc: Photos are a reflection of your experiences—what drives you, where you’ve been,
+  where you’re going, who you love. SmugMug is a safe, beautiful home for all of it—your
+  journey and your photos. Protect your photos and memories with a SmugMug site and
+  give them a place to shine.
 contact-email: help@smugmug.com
-contact:
+contact: 
 ---
+

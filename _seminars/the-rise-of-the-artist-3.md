@@ -7,7 +7,7 @@ cities: Phoenix
 speaker: Tim Kemple
 image: "/img/Copy-of-TK_image.jpg"
 layout: speaker
-desc: "Have you ever looked an advertising campaign and thought to yourself, I could
+desc: Have you ever looked an advertising campaign and thought to yourself, I could
   have shot that? But you didn’t. Why? There is no universal path to a successful
   photography career but I have seen the road change in my 15 years as a working professional.
   The modern day photographer is like a musician — where a jack of all trades gets
@@ -16,6 +16,7 @@ desc: "Have you ever looked an advertising campaign and thought to yourself, I c
   all doing what someone else has done is easier than ever. This short talk will explore
   the importance of creating a voice in the noise of content creation. How sharing
   your story is as important as ever. And how having a goddamn opinion is a creative
-  director's dream."
+  director's dream.
 type: seminar
 ---
+

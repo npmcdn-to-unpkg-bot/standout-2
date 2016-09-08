@@ -5,10 +5,11 @@ collection: seminars
 speaker: Jeff Rojas
 cities: Dallas, Chicago, Los Angeles
 image: "/img/workJeff.jpg"
-desc: "In this Men’s Portrait & Fashion seminar, you’ll learn the fundamentals of men’s
+desc: In this Men’s Portrait & Fashion seminar, you’ll learn the fundamentals of men’s
   portrait, commercial and fashion photography. Photographer and author, Jeff Rojas
   will guide you through essential posing, lighting, and editing techniques that will
-  compliment all shapes and sizes of men."
+  compliment all shapes and sizes of men.
 time: 10:00 - 10:45
 type: seminar
 ---
+

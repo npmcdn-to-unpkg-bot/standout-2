@@ -5,7 +5,7 @@ collection: speakers
 city: Chicago
 headshot: "/img/michael-bonocore.jpg"
 featured-image: "/img/michael-bonocore-feat.jpg"
-bio: "Michael has been working in the photography industry for over 7 years. While
+bio: Michael has been working in the photography industry for over 7 years. While
   photographing paid assignments, from commercial ad campaigns to weddings, Bonocore
   realized his passion for traveling with camera in hand was too great to ignore.
   He started visiting locations all over the globe, documenting not only the beautiful
@@ -17,9 +17,10 @@ bio: "Michael has been working in the photography industry for over 7 years. Whi
   work of elephant sanctuaries he has helped bring awareness to Women’s Cooperatives
   in the Middle East. His passion for travel and photography has led to his new career
   as Travel Editor for Resource Travel. You can see more of Michael’s work on his website, Instagram,
-  and Facebook."
+  and Facebook.
 layout: speaker
 website-url: http://travel.resourcemagonline.com/
 facebook-url: https://www.facebook.com/BonocoreVisualStudios
 instagram-url: https://instagram.com/michaelbonocore/
 ---
+

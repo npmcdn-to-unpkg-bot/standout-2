@@ -5,7 +5,7 @@ collection: seminars
 time: 1:00 - 2:30
 cities: Dallas
 speaker: Pratik Naik, Bella Kotak
-image: "img/Copy-of-Beauty11April20162370Color-Retouched.jpg"
+image: img/Copy-of-Beauty11April20162370Color-Retouched.jpg
 layout: speaker
 desc: Join Bella Kotak and Pratik Naik on a photoshoot workflow session. Watch Bella
   Kotak explain her concept and inspiration, direct and shoot a fantasy inspired scene.
@@ -14,3 +14,4 @@ desc: Join Bella Kotak and Pratik Naik on a photoshoot workflow session. Watch B
   from start to finish.
 type: seminar
 ---
+
